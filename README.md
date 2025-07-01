@@ -38,7 +38,11 @@ POP has a variety of parts that make up both his hardware and software. This inc
 | 1 | ELECFREAKS Motor:bit | ![image](https://github.com/user-attachments/assets/abc87d1b-aac4-45dd-91b3-eae0be5a72f4) |
 | 1 | Micro:bit | ![image](https://github.com/user-attachments/assets/f8dca97d-665d-4009-9d59-e81dd8b60401) |
 | 3 | Ultrasonic Sensor HC-SR04 | ![image](https://github.com/user-attachments/assets/87dbe195-9446-4fb0-b354-da60d6588653) |
-| 1 | 
+| 1 | Geekservo Servo | ![image](https://github.com/user-attachments/assets/9ee9e8d8-0f66-4529-abc1-4d5bd63ddc1b) |
+| 1 | Geekservo Motor | ![image](https://github.com/user-attachments/assets/a2323208-b0c0-49a4-a92c-4026516a4712) | 
+| 1 | 3D printed chassis | lol |
+
+
 
 
 
