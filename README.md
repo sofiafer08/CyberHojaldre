@@ -21,6 +21,8 @@ We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team repre
 
 
 ## Mobility Management
+Los requisitos son 
+how vehile movements are managed, 
 
 Power and Sensor Management
 Obstacle Management
