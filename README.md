@@ -15,8 +15,13 @@ We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team repre
 
 ## Our Robot
 
-## 
-Mobility Management
+## Robot Objectives.
+
+
+
+
+## Mobility Management
+
 Power and Sensor Management
 Obstacle Management
 Open Challenge Programming
