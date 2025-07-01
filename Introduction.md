@@ -1,7 +1,7 @@
 Future Engineers
 ====
 
-We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+* We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
 ## Content
 
@@ -14,7 +14,7 @@ We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team repre
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
 
-## Robot Objectives.
+## Robot Objectives
 
 
 ## Mobility Management
@@ -23,10 +23,15 @@ Our robot, "POP", short for People is nice, works with the help of two motors. F
 
 The design of our chassis was made from scratch using Autodesk Fusion 360. Since the motors we agreed upon were compatible with LEGO components, it was only natural that our design was based on these same pieces. We have a simple structure inspired on a ladder-frame chassis, since our main objectives can be accomplished with a reliable base.
 
-  
+
 
 ## Power and Sensor Management
 ## Obstacle Management
 ## Open Challenge Programming
 ## Programming Challenge Obstacles
 ## Components 
+
+POP has a variety of parts that make up both his hardware and software. This includes: 
+
+
+
