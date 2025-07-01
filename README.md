@@ -33,5 +33,15 @@ The design of our chassis was made from scratch using Autodesk Fusion 360. Since
 
 POP has a variety of parts that make up both his hardware and software. This includes: 
 
+| Quantity | Name | Image | 
+|----------|------|-------|
+| 1 | ELECFREAKS Motor:bit | ![image](https://github.com/user-attachments/assets/abc87d1b-aac4-45dd-91b3-eae0be5a72f4) |
+| 1 | Micro:bit | ![image](https://github.com/user-attachments/assets/f8dca97d-665d-4009-9d59-e81dd8b60401) |
+| 3 | Ultrasonic Sensor HC-SR04 | ![image](https://github.com/user-attachments/assets/87dbe195-9446-4fb0-b354-da60d6588653) |
+| 1 | 
+
+
+
+
 
 
