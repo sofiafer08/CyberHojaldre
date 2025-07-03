@@ -35,11 +35,11 @@ POP has a variety of parts that make up both his hardware and software. This inc
 
 | Quantity | Name | Image | 
 |----------|------|-------|
-| 1 | ELECFREAKS Motor:bit | ![image](https://github.com/user-attachments/assets/abc87d1b-aac4-45dd-91b3-eae0be5a72f4) |
-| 1 | Micro:bit | ![image](https://github.com/user-attachments/assets/f8dca97d-665d-4009-9d59-e81dd8b60401) |
-| 3 | Ultrasonic Sensor HC-SR04 | ![image](https://github.com/user-attachments/assets/87dbe195-9446-4fb0-b354-da60d6588653) |
-| 1 | Geekservo Servo | ![image](https://github.com/user-attachments/assets/9ee9e8d8-0f66-4529-abc1-4d5bd63ddc1b) |
-| 1 | Geekservo Motor | ![image](https://github.com/user-attachments/assets/a2323208-b0c0-49a4-a92c-4026516a4712) | 
+| 1 | ELECFREAKS Motor:bit | ![motor bit foto](https://github.com/user-attachments/assets/73b395f8-b8a7-4a2f-8406-f71f2b36c786)|
+| 1 | Micro:bit | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
+| 3 | Ultrasonic Sensor HC-SR04 | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
+| 1 | Geekservo Servo |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
+| 1 | Geekservo Motor | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
 | 1 | 3D printed chassis | lol |
 
 
