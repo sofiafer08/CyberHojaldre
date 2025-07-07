@@ -38,6 +38,9 @@ The design of our chassis was made from scratch using Autodesk Fusion 360. Since
 **Power Source**
 
 The power source of Pop is a Rechargeable Li-ion battery 2200 mAh type 18650 with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh. Made with a metal casing for greater safety and a lithium-ion active element.
+
+**Sensors** 
+
 We used three Ultrasonic Distance Sensors HC-SR04. This economical sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We place a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to complete the challenges.
 
 
@@ -54,12 +57,12 @@ POP has a variety of parts that make up both his hardware and software. This inc
 
 | Quantity | Name | Image | 
 |----------|------|-------|
-| 1 | **ELECFREAKS Micro:bit Motor:bit** : Motor:bit is a motor driving shield for Micro:bit which integrates a TB6612 motor driving chip. It extends our robot's capacity, allowing it to connect various sensors and electric modules. | ![motor bit foto](https://github.com/user-attachments/assets/73b395f8-b8a7-4a2f-8406-f71f2b36c786)|
-| 1 | **Micro:bit V2** : Micro:bit V2 is an open source hardware ARM-based embedded system, containing a Cortex-M4F microcontroller. It controls all of our robot's functions, from our drivetrain to our Huskylens camera. | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
-| 3 | **Ultrasonic Sensor HC-SR04** : This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
-| 1 | **Geekservo 2kg 360° Servo** : This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
-| 1 | **Geekservo 2kg Motor** : This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
-| 1 | **3D printed chassis** | lol |
+| 1 | **ELECFREAKS Micro:bit Motor:bit:** Motor:bit is a motor driving shield for Micro:bit which integrates a TB6612 motor driving chip. It extends our robot's capacity, allowing it to connect various sensors and electric modules. | ![motor bit foto](https://github.com/user-attachments/assets/73b395f8-b8a7-4a2f-8406-f71f2b36c786)|
+| 1 | **Micro:bit V2:** Micro:bit V2 is an open source hardware ARM-based embedded system, containing a Cortex-M4F microcontroller. It controls all of our robot's functions, from our drivetrain to our Huskylens camera. | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
+| 3 | **Ultrasonic Sensor HC-SR04:** This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
+| 1 | **Geekservo 2kg 360° Servo:** This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
+| 1 | **Geekservo 2kg Motor:** This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
+| 1 | **3D printed chassis:** | lol |
 
 
 
