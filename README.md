@@ -21,7 +21,7 @@ Thw aim of Pop os to swiftly maneuver its environment. This involves:
 **Objectives**
 1. Detect obstacles in the environment.
 2. Avoid obstacles in the environment.
-3. 
+3. Complete three lapses 
 4. Have fun
 
 
