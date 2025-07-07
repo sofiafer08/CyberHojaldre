@@ -1,7 +1,7 @@
 Future Engineers
 ====
 
-We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+We are CyberHojaldre, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
 ## Content
 
@@ -16,7 +16,7 @@ We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team repre
 
 ## Robot Objectives
 
-Thw aim of Pop os to swiftly maneuver its environment. This involves: 
+Thw aim of Pop is to swiftly maneuver its environment. This involves: 
 
 **Objectives**
 1. Detect obstacles in the environment.
@@ -52,11 +52,11 @@ POP has a variety of parts that make up both his hardware and software. This inc
 
 | Quantity | Name | Image | 
 |----------|------|-------|
-| 1 | ELECFREAKS Motor:bit | ![motor bit foto](https://github.com/user-attachments/assets/73b395f8-b8a7-4a2f-8406-f71f2b36c786)|
-| 1 | Micro:bit | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
-| 3 | Ultrasonic Sensor HC-SR04 | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
-| 1 | Geekservo Servo |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
-| 1 | Geekservo Motor | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
+| 1 | ELECFREAKS Micro:bit Motor:bit : Motor:bit is a motor driving shield for Micro:bit which integrates a TB6612 motor driving chip. It extends our robot's capacity, allowing it to connect various sensors and electric modules. | ![motor bit foto](https://github.com/user-attachments/assets/73b395f8-b8a7-4a2f-8406-f71f2b36c786)|
+| 1 | Micro:bit V2 : Micro:bit V2 is an open source hardware ARM-based embedded system, containing a Cortex-M4F microcontroller. It controls all of our robot's functions, from our drivetrain to our Huskylens camera. | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
+| 3 | Ultrasonic Sensor HC-SR04 : This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
+| 1 | Geekservo 2kg 360° Servo : This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
+| 1 | Geekservo 2kg Motor : This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
 | 1 | 3D printed chassis | lol |
 
 
