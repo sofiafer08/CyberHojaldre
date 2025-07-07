@@ -22,6 +22,7 @@ Thw aim of Pop os to swiftly maneuver its environment. This involves:
 1. Detect obstacles in the environment.
 2. Avoid obstacles in the environment.
 3. 
+4. Have fun
 
 
 ## Mobility Management
