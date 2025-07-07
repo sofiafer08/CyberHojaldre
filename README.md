@@ -1,7 +1,7 @@
 Future Engineers
 ====
 
-We are CyberHojaldre, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
 ## Content
 
@@ -37,11 +37,11 @@ The design of our chassis was made from scratch using Autodesk Fusion 360. Since
 
 **Power Source**
 
-The power source of Pop is a Rechargeable Li-ion battery 2200 mAh type 18650 with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh. Made with a metal casing for greater safety and a lithium-ion active element.
+The power source of POP are two type 18650 rechargeable Li-ion batteries with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
 
 **Sensors** 
 
-We used three Ultrasonic Distance Sensors HC-SR04. This economical sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We place a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to complete the challenges.
+We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to complete the challenges.
 
 
 ## Open Challenge Programming
