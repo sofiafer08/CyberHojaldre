@@ -36,9 +36,11 @@ The design of our chassis was made from scratch using Autodesk Fusion 360. Since
 ## Power and Sensor Management
 
 **Power Source**
-The power source of Pop is a Rechargeable Li-ion battery 2200 mAh type 18650 with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh. Made with a metal casing for greater safety and a lithium-ion active element.
 
-## Obstacle Management
+The power source of Pop is a Rechargeable Li-ion battery 2200 mAh type 18650 with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh. Made with a metal casing for greater safety and a lithium-ion active element.
+We used three Ultrasonic Distance Sensors HC-SR04. This economical sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We place a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to 
+
+
 
 
 
