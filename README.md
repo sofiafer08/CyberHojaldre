@@ -34,7 +34,14 @@ The design of our chassis was made from scratch using Autodesk Fusion 360. Since
 
 
 ## Power and Sensor Management
+
+**Power Source**
+The 18650
+
 ## Obstacle Management
+
+
+
 ## Open Challenge Programming
 ## Programming Challenge Obstacles
 ## Components 
