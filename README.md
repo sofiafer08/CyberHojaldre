@@ -22,8 +22,8 @@ Thw aim of Pop is to swiftly maneuver its environment. This involves:
 1. Detect obstacles in the environment.
 2. Avoid obstacles in the environment.
 3. Complete three lapses 
-4. Have fun
-
+4+. Have fun
++
 
 ## Mobility Management
 
@@ -41,10 +41,12 @@ The power source of Pop is a Rechargeable Li-ion battery 2200 mAh type 18650 wit
 We used three Ultrasonic Distance Sensors HC-SR04. This economical sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We place a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to complete the challenges.
 
 
-
-
-
 ## Open Challenge Programming
+
+
+Our open challenge programming works by establishing the two values of the ultrasonic sensors, and then creating a time variable that ends once the robot has completed its course. A conditional is added in which if the distance of both ultrasonic sensors is greater than x distance, then the front steering wheels goes straight. Then if the distance between the left sensor is less than x distance, then it will go right, and the same happens with the right ultrasonic sensors. If the distance between the right sensor is less that x distance, then it will go left.
+
+
 ## Programming Challenge Obstacles
 ## Components 
 
