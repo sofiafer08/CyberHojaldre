@@ -16,6 +16,13 @@ We are Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team repre
 
 ## Robot Objectives
 
+Thw aim of Pop os to swiftly maneuver its course. This involves 
+
+**Objectives**
+1. Detect obstacles in the environment.
+2. Avoid obstacles in the environment.
+3. 
+
 
 ## Mobility Management
 
