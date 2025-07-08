@@ -25,7 +25,7 @@ We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio
 
 ## Robot Objectives
 
-Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. It also can visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond the technical goals, one of our team's most important objectives is to enjoy the engineering process, learn through experimentation, and have fun building a robot that reflects both our creativity and our passion for robotics.
+Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. It also can visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
 
 
 ## Mobility Management
