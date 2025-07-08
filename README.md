@@ -27,7 +27,7 @@ We are ***CyberHojaldre***, composed by Emilia Lever, Sofía Fernández, and Ant
 
 **Team role:** Goofy designer and mechanics lead, invested in every part of the project.
 
-![Foto de toño working 450px](https://github.com/user-attachments/assets/905fb398-edc0-4923-b230-d9369edf9215
+![Foto de toño working 450px](https://github.com/user-attachments/assets/905fb398-edc0-4923-b230-d9369edf9215)
 
 ## Contents
 
