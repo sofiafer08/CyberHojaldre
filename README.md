@@ -25,13 +25,7 @@ We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio
 
 ## Robot Objectives
 
-Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. Using three ultrasonic sensors, the robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. A HuskyLens camera is integrated to visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond the technical goals, one of our team's most important objectives is to enjoy the engineering process, learn through experimentation, and have fun building a robot that reflects both our creativity and our passion for robotics.
-
-**Objectives**
-1. Detect obstacles in the environment.
-2. Avoid obstacles in the environment.
-3. Complete three lapses 
-4. Have fun
+Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. It also can visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond the technical goals, one of our team's most important objectives is to enjoy the engineering process, learn through experimentation, and have fun building a robot that reflects both our creativity and our passion for robotics.
 
 
 ## Mobility Management
