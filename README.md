@@ -44,7 +44,7 @@ Our robot, ***POP***, is designed to autonomously complete the driving challenge
 
 ### Power Source
 
-The power source of POP are two type 18650 rechargeable Li-ion batteries with  each a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
+The power source of ***POP*** are two type 18650 rechargeable Li-ion batteries with  each a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
 
 ### Sensors
 
