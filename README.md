@@ -1,9 +1,18 @@
 Future Engineers
 ====
 
-We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots”—which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration—we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+## Team Presentation
 
-## Content
+We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+
+**Emilia Lever**
+
+**Sofia Fernandez**
+
+**Antonio Franco**
+
+
+## Contents
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
@@ -16,14 +25,14 @@ We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio
 
 ## Robot Objectives
 
-Thw aim of Pop is to swiftly maneuver its environment. This involves: 
+Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. Using three ultrasonic sensors, the robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. A HuskyLens camera is integrated to visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond the technical goals, one of our team's most important objectives is to enjoy the engineering process, learn through experimentation, and have fun building a robot that reflects both our creativity and our passion for robotics.
 
 **Objectives**
 1. Detect obstacles in the environment.
 2. Avoid obstacles in the environment.
 3. Complete three lapses 
-4+. Have fun
-+
+4. Have fun
+
 
 ## Mobility Management
 
@@ -32,12 +41,11 @@ Our robot, "POP", short for People is nice, works with the help of two motors. F
 The design of our chassis was made from scratch using Autodesk Fusion 360. Since the motors we agreed upon were compatible with LEGO components, it was only natural that our design was based on these same pieces. We have a simple structure inspired on a ladder-frame chassis, since our main objectives can be accomplished with a reliable base.
 
 
-
 ## Power and Sensor Management
 
 **Power Source**
 
-The power source of POP are two type 18650 rechargeable Li-ion batteries with a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
+The power source of POP are two type 18650 rechargeable Li-ion batteries with  each a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
 
 **Sensors** 
 
@@ -45,7 +53,6 @@ We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 4
 
 
 ## Open Challenge Programming
-
 
 Our open challenge programming works by establishing the two values of the ultrasonic sensors, and then creating a time variable that ends once the robot has completed its course. A conditional is added in which if the distance of both ultrasonic sensors is greater than x distance, then the front steering wheels goes straight. Then if the distance between the left sensor is less than x distance, then it will go right, and the same happens with the right ultrasonic sensors. If the distance between the right sensor is less that x distance, then it will go left.
 
