@@ -1,7 +1,7 @@
 CyberHojaldre - Future Engineers
 ====
 
-# Team Presentation
+## Team Presentation
 
 We are ***CyberHojaldre***, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
@@ -55,9 +55,11 @@ Our open challenge programming works by establishing the two values of the ultra
 
 
 ## Programming Challenge Obstacles
+
+
 ## Components 
 
-POP has a variety of parts that make up both his hardware and software. This includes: 
+### List of components:
 
 | Quantity | Name | Image | 
 |----------|------|-------|
