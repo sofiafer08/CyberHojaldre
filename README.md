@@ -3,7 +3,7 @@ Future Engineers
 
 ## Team Presentation
 
-We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+We are ***CyberHojaldre***, composed by Emilia Lever, Sofia Fernandez, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
 **Emilia Lever**
 
@@ -25,7 +25,7 @@ We are **CyberHojaldre**, composed by Emilia Lever, Sofia Fernandez, and Antonio
 
 ## Robot Objectives
 
-Our robot is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. It also can visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
+Our robot, ***POP***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors the track boundaries to ensure it stays within limits and maintains accurate navigation. It also can visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
 
 
 ## Mobility Management
