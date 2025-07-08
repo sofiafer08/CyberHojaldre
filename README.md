@@ -33,12 +33,9 @@ Our robot, ***POP***, is designed to autonomously complete the driving challenge
 
 ## Mobility Management
 
-Our robot, "POP", short for People is nice, works with the help of two motors. For the movement of the rear-axle we implemented a red "GeekServo" direct current (DC) motor, we chose it since it has a strong online community that already implements this motor using micro:bit software and hardware. It also has LEGO compatability, making it easier to adapt to our design. Our robot POP has a gray "GeekServo" servo motor as well. This controls the front-axle and provides the high-precision that is needed. This motor allows us to program it using degrees, which fits our team's need for accuracy.
-
-The design of our chassis was made from scratch using Autodesk Fusion 360. Since the motors we agreed upon were compatible with LEGO components, it was only natural that our design was based on these same pieces. We have a simple structure inspired on a ladder-frame chassis, since our main objectives can be accomplished with a reliable base.
-
 
 ## Power and Sensor Management
+
 
 ### Power Source
 
