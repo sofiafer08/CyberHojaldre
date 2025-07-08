@@ -71,9 +71,10 @@ Our open challenge programming works by establishing the two values of the ultra
 | 3 | **Ultrasonic Sensor HC-SR04:** This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
 | 1 | **Geekservo 2kg 360° Servo:** This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
 | 1 | **Geekservo 2kg Motor:** This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
-| 1 | **3D printed chassis:** | lol |
-
-
+| 1 | **3D printed LEGO compatible ladder chassis:** | lol |
+| 1 | **3D printed LEGO compatible battery holder:** | lol |
+| 1 | **3D printed LEGO compatible Micro:bit holder:** | lol |
+| 1 | **3D printed LEGO compatible ultrasonic sensor support:** | lol |
 
 
 
