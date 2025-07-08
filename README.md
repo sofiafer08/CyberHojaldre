@@ -7,20 +7,19 @@ We are ***CyberHojaldre***, composed by Emilia Lever, Sofía Fernández, and Ant
 
 ### Sofia Fernandez
 
-**Age:** 16 years old
+**Age:** 16 years old.
 
-
-**Team role:** GitHub Master, Team spirit leader, and Marketing.
+**Team role:** GitHub master, team spirit leader, and marketing.
 
 ### Emilia Lever
-**Age:** 15 years old
+**Age:** 15 years old.
 
-**Team role:** Silly programmer geeky.
+**Team role:** Silly, geeky programmer.
 
 ### Antonio Franco
-**Age:** 14 years old
+**Age:** 14 years old.
 
-**Team role:** Goofy designer, invested in every part of the project.
+**Team role:** Goofy designer and mechanics lead, invested in every part of the project.
 
 
 ## Contents
