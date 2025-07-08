@@ -7,14 +7,17 @@ We are ***CyberHojaldre***, composed by Emilia Lever, Sofía Fernández, and Ant
 
 ### Emilia Lever
 **Age:**
+
 **Team role:**
 
 ### Sofía Fernández
 **Age:**
+
 **Team role:**
 
 ### Antonio Franco
 **Age: 14.**
+
 **Team role:**
 
 
