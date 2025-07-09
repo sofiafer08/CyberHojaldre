@@ -66,7 +66,8 @@ Our open challenge programming works by establishing the two values of the ultra
 
 ## Programming Challenge Obstacles
 
-
+Although for this regional we weren't able to complete the programming for the obstacle course, we plan to incorporate it further along. We will use a HuskyLens c  amera that is capable of identifying colors and objects and storing the information in its database. The stored data will be implemented into the programming so as to steer clear of obstacles by indicating the color of the object, and then moving either left or right accordingly. 
+ it
 ## Components 
 
 ### List of components:
