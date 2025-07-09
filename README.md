@@ -61,7 +61,7 @@ We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 4
 
 ## Open Challenge Programming
 
-Our open challenge programming works by establishing the two values of the ultrasonic sensors, and then creating a time variable that ends once the robot has completed its course. A conditional is added in which if the distance of both ultrasonic sensors is greater than *x* distance, then the front steering wheels goes straight. Then if the distance between the left sensor is less than *x* distance, then it will go right, and the same happens with the right ultrasonic sensors. If the distance between the right sensor is less that *x* distance, then it will go left.
+Our open challenge programming works by establishing the two values of the ultrasonic sensors, and then creating a time variable that ends once the robot has completed its course. Our robot completes the course in 90 secs, this means that once the time passes the rear wheels motors value is set to zero. A conditional is added in which if the distance of both ultrasonic sensors is greater than *45cm* in distance, then the front steering wheels goes straight. Then, if the distance between the left sensor is less than *50cm* and greater than zero, then the servo will move right by being set on 210 degrees, and then proceeds to pause for 200ms. The same happens with the right ultrasonic sensor. If the distance between the right sensor is less that *50*, then the servo will move to the 150 degrees position, this will cause it to move left, and then pause for 200ms the same way it happened with the left sensor.
 
 
 ## Programming Challenge Obstacles
