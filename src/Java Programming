@@ -1,0 +1,38 @@
+let Tiempo = 0
+let sensor_front = 0
+let Sensor_izq = 0
+let Sensor_derch = 0
+basic.forever(function () {
+    Tiempo = input.runningTime()
+    sensor_front = sonar.ping(
+    DigitalPin.P15,
+    DigitalPin.P14,
+    PingUnit.Centimeters
+    )
+    Sensor_izq = sonar.ping(
+    DigitalPin.P2,
+    DigitalPin.P8,
+    PingUnit.Centimeters
+    )
+    Sensor_derch = sonar.ping(
+    DigitalPin.P14,
+    DigitalPin.P15,
+    PingUnit.Centimeters
+    )
+    if (input.runningTime() < 85500) {
+        wuKong.setMotorSpeed(wuKong.MotorList.M1, -100)
+    } else {
+        wuKong.setMotorSpeed(wuKong.MotorList.M1, 0)
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 180)
+    }
+    if (Sensor_izq < 50 && Sensor_izq > 0) {
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 210)
+        basic.pause(200)
+    } else if (Sensor_derch < 50 && Sensor_derch > 0) {
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 150)
+        basic.pause(200)
+    } else if (Sensor_izq > 45 && Sensor_derch > 45) {
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 180)
+        basic.pause(200)
+    }
+})
