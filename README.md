@@ -55,7 +55,7 @@ The robotic vehicle is constructed upon a **ladder chassis** It's powered throug
 
 ### Chassis
 
-We use a custom LEGO compatible PLA 3D printed **ladder chassis**, which gives us ease of repair and modification, high ground clearance and torsional rigidity. It's a simple but effectve design which adapts to our robot's needs.
+We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle frame is characterized by having two parallel longitudinal rails (like the sides of a ladder) connected by cross members. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
 ### Rear axle and power.
 
