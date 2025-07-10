@@ -47,21 +47,23 @@ Our robot, ***POP***, is designed to autonomously complete the driving challenge
 
 ## Mobility Management
 
+1. 
+
 
 ## Power and Sensor Management
 
 ### Power Source
 
-The power source of ***POP*** are two type 18650 rechargeable Li-ion batteries with  each a nominal voltage of 3.7 V DC and a storage capacity of 2,200 mAh.
+The power source of ***POP*** is a Li-ion battery pack with a nominal voltage of 3.7 V DC and a storage capacity of 400mAh.
 
 ### Sensors
 
-We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor in each side (left and right) and one in the front. Its purpose is to provide the vehicle with the information needed to complete the challenges.
+We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor on each side (left and right) and one in the front. The purpose is to provide the vehicle with the information needed to complete the challenges.
 
 
 ## Open Challenge Programming
 
-Our open challenge programming works by establishing a variable for the two values of the lateral ultrasonic sensors and then creating a time variable that ends once the robot has completed its course. Our robot completes the course in an aproximated time of **90 seconds**, this means that once the time passes, the rear axle's motor value is set to zero and our robot stops. A conditional is added in which if the distance of both ultrasonic sensors is greater than 45cm, then the front steering goes straight. Then, if the distance between the left sensor is less than **50cm** and greater than zero, the servo in our steering will move right by being set on **210°** and pause for **200 miliseconds**. The same happens with the right ultrasonic sensor, if the distance between the right sensor is less that **50cm**, then the servo will move to **150°**, this will cause it to move left, and then pause for **200 miliseconds** the same way it happened with the left sensor.
+Our open challenge programming works by establishing a variable for the two values of the lateral ultrasonic sensors and then creating a time variable that ends once the robot has completed its course. Our robot completes the course in an approximate time of **90s**, this means that once the time passes, the rear axle's motor value is set to zero and our robot stops. A conditional is added in which if the distance of both ultrasonic sensors is greater than **45cm**, then the front steering goes straight. Then, if the distance between the left sensor is less than **50cm** and greater than zero, the servo in our steering will move right by being set on **210°** and pause for **200ms**. The same happens with the right ultrasonic sensor, if the distance between the right sensor is less than **50cm**, then the servo will move to **150°**, this will cause it to move left, and then pause for **200ms** the same way it happened with the left sensor.
 
 
 ## Programming Challenge Obstacles
