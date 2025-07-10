@@ -70,11 +70,11 @@ We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo*
 
 ### Power Source
 
-The power source of ***POP*** is a Li-ion battery pack with a nominal voltage of 3.7 V DC and a storage capacity of 400mAh.
+The power source of ***POP*** is a **Li-ion battery pack** with a nominal voltage of **3.7 V DC** and a storage capacity of **400mAh**.
 
 ### Sensors
 
-We used three HC-SR04 Ultrasonic Distance Sensors. Each sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor on each side (left and right) and one in the front. The purpose is to provide the vehicle with the information needed to complete the challenges.
+We used three **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm to 400cm** of non-contact measurement functionality with a ranging accuracy that can reach up to **3mm**. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor on each side (left and right) and one in the front. The purpose is to provide the vehicle with the information needed to complete the challenges.
 
 
 ## Open Challenge Programming
@@ -84,7 +84,7 @@ Our open challenge programming works by establishing a variable for the two valu
 
 ## Programming Challenge Obstacles
 
-Although for this regional we weren't able to complete the programming for the obstacle course, we plan to incorporate it further along. We will use a HuskyLens camera that is capable of identifying colors and objects and storing the information in its database. The stored data will be implemented into the programming so as to steer clear of obstacles by indicating the color of the object, and then moving either left or right accordingly.
+Although for this regional we weren't able to complete the programming for the obstacle course, we plan to incorporate it further along. We will use a **HuskyLens camera** that is capable of identifying colors and objects and storing the information in its database. The stored data will be implemented into the programming so as to steer clear of obstacles by indicating the color of the object, and then moving either left or right accordingly.
 
 
 ## Components 
@@ -94,7 +94,7 @@ Although for this regional we weren't able to complete the programming for the o
 | Quantity | Name | Image | 
 |----------|------|-------|
 | 1 | **Wukong Breakout Board (EF08207):** Wukong Breakout Board is a dual motor driving shield for Micro:bit. It extends our robot's capacity, allowing it to connect various sensors and electric modules. |![Wukong 356](https://github.com/user-attachments/assets/f61d7b43-7f9b-4200-968f-b53a5e719830)|
-| 1 | **Micro:bit V2:** Micro:bit V2 is an open source hardware ARM-based embedded system, containing a Cortex-M4F microcontroller. It controls all of our robot's functions, from our drivetrain to our Huskylens camera. | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
+| 1 | **Micro:bit V2:** Micro:bit V2 is an open source hardware ARM-based embedded system, containing a Cortex-M4F microcontroller. It controls all of our robot's functions. | ![micro bit foto fr ](https://github.com/user-attachments/assets/63ed836f-7a6b-4cb8-be16-7a6c6e5b936f)|
 | 3 | **Ultrasonic Sensor HC-SR04:** This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
 | 1 | **Geekservo 2kg 360° Servo:** This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
 | 1 | **Geekservo 2kg Motor:** This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
