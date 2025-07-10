@@ -5,6 +5,7 @@ CyberHojaldre - Future Engineers
 
 We are ***CyberHojaldre***, composed by Emilia Lever, Sofía Fernández, and Antonio Franco, a dedicated team representing the Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
 
+
 ## Team Members
 
 ### Sofía Fernández
@@ -29,6 +30,7 @@ We are ***CyberHojaldre***, composed by Emilia Lever, Sofía Fernández, and Ant
 
 ![Foto de toño working 450px](https://github.com/user-attachments/assets/905fb398-edc0-4923-b230-d9369edf9215)
 
+
 ## Contents
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
@@ -47,7 +49,21 @@ Our robot, ***POP***, is designed to autonomously complete the driving challenge
 
 ## Mobility Management
 
-1. 
+### General vehicle design
+
+The robotic vehicle is constructed upon a **ladder chassis** It's powered through the rear axle using a **Geekservo 2kg motor** and steered with a **Geekservo 2kg 360° servo**. It counts with three **HC-SR04 Ultrasonic Distance Sensors** and it's controlled by a **Micro:bit V2** with a **Wukong Breakout Board**.
+
+### Chassis
+
+We use a custom LEGO compatible PLA 3D printed **ladder chassis**, which gives us ease of repair and modification, high ground clearance and torsional rigidity. It's a simple but effectve design which adapts to our robot's needs.
+
+### Rear axle and power.
+
+We power our drivetrain using a **Geekservo 2kg motor**, which is directly connected to our rear axle and responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
+
+### Steering.
+
+We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo**. The Ackermann principle allows our vehicle's wheels to turn at different angles during a turn, ensuring they follow concentric circles with a common center point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy.
 
 
 ## Power and Sensor Management
@@ -69,6 +85,7 @@ Our open challenge programming works by establishing a variable for the two valu
 ## Programming Challenge Obstacles
 
 Although for this regional we weren't able to complete the programming for the obstacle course, we plan to incorporate it further along. We will use a HuskyLens camera that is capable of identifying colors and objects and storing the information in its database. The stored data will be implemented into the programming so as to steer clear of obstacles by indicating the color of the object, and then moving either left or right accordingly.
+
 
 ## Components 
 
