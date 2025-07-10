@@ -81,6 +81,5 @@ Although for this regional we weren't able to complete the programming for the o
 | 3 | **Ultrasonic Sensor HC-SR04:** This ultrasonic sensor provides 2cm to 400cm of non-contact measurement functionality which allows our robot to detect the track's limits. | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
 | 1 | **Geekservo 2kg 360° Servo:** This servomotor offers 360° dual output axles with LEGO compatibility, which we use for our ackerman steering system. |![geek servo foto ](https://github.com/user-attachments/assets/1e684391-a7db-41d3-aa21-46279865f448)|
 | 1 | **Geekservo 2kg Motor:** This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
-| 1 | **3D printed LEGO compatible ladder chassis:** Custom designed chassis to place all of the electromechanical components. | lol |
-| 1 | **3D printed LEGO compatible ultrasonic sensor support:** Custom designed 45° angled mount for our three ultrasonic sensors. | ![Base de ultrasonicos foto](https://github.com/user-attachments/assets/e4c0f42d-7b86-46fa-a101-3e69117f5fc4)
- |
+| 1 | **3D printed LEGO compatible ladder chassis:** Custom designed chassis to place all of the electromechanical components. | ![Foto chasis 356](https://github.com/user-attachments/assets/bcf54100-cc62-41cf-b7a2-986d5c706e9e) |
+| 1 | **3D printed LEGO compatible ultrasonic sensor support:** Custom designed 45° angled mount for our three ultrasonic sensors. | ![Base de ultrasonicos foto](https://github.com/user-attachments/assets/e4c0f42d-7b86-46fa-a101-3e69117f5fc4) |
