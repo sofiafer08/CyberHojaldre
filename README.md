@@ -57,6 +57,9 @@ The robotic vehicle is constructed upon a **ladder chassis**. It's powered throu
 
 We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle frame is characterized by having two parallel longitudinal rails (like the sides of a ladder) connected by cross members. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
+![ladder frame](https://github.com/user-attachments/assets/8bea87ef-0264-4a01-a033-4aee4a3cefc3)
+
+
 ### Rear axle, gearbox and power.
 
 We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
