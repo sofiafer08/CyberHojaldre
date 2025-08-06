@@ -76,6 +76,8 @@ We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo*
 
 The power source of ***POP*** is a **Li-ion battery pack** with a nominal voltage of **3.7 V DC** and a storage capacity of **400mAh**.
 
+![3 7 v battery](https://github.com/user-attachments/assets/fa8b83ae-376f-45e1-818d-937a010338c3)
+
 ### Sensors
 
 We used three **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm to 400cm** of non-contact measurement functionality with a ranging accuracy that can reach up to **3mm**. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor on each side (left and right) and one in the front. The purpose is to provide the vehicle with the information needed to complete the challenges.
