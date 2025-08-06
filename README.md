@@ -67,6 +67,7 @@ We power our drivetrain using a **Geekservo 2kg motor**, which is connected to o
 
 <img width="450" height="448" alt="geekservo motor 450 px" src="https://github.com/user-attachments/assets/3e6b2bc2-f8ef-4da9-a372-272d3d27e361" />
 
+
 ![gearbox 450 px](https://github.com/user-attachments/assets/6c10aa01-75c3-4df3-8871-256c79907bfb)
 
 ### Steering
