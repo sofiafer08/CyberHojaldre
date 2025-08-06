@@ -51,15 +51,15 @@ Our robot, ***POP***, is designed to autonomously complete the driving challenge
 
 ### General vehicle design
 
-The robotic vehicle is constructed upon a **ladder chassis**. It's powered through the rear axle using a **Geekservo 2kg motor** and steered with a **Geekservo 2kg 360° servo**. It counts with three **HC-SR04 Ultrasonic Distance Sensors** and it's controlled by a **Micro:bit V2** with a **Wukong Breakout Board**.
+The robotic vehicle is constructed upon a **ladder chassis**. It's powered through the rear axle using a **Geekservo 2kg motor** connected to a **custom LEGO gearbox** and steered with a **Geekservo 2kg 360° servo**. It counts with three **HC-SR04 Ultrasonic Distance Sensors** and it's controlled by a **Micro:bit V2** with a **Wukong Breakout Board**.
 
 ### Chassis
 
 We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle frame is characterized by having two parallel longitudinal rails (like the sides of a ladder) connected by cross members. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
-### Rear axle and power.
+### Rear axle, gearbox and power.
 
-We power our drivetrain using a **Geekservo 2kg motor**, which is directly connected to our rear axle and responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
+We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
 
 ### Steering
 
