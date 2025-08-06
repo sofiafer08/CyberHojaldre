@@ -65,6 +65,8 @@ We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle 
 
 We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
 
+<img width="450" height="448" alt="geekservo motor 450 px" src="https://github.com/user-attachments/assets/3e6b2bc2-f8ef-4da9-a372-272d3d27e361" />
+
 ### Steering
 
 We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo**. The Ackermann principle allows our vehicle's wheels to turn at different angles during a turn, ensuring they follow concentric circles with a common center point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy.
