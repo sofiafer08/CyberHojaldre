@@ -59,6 +59,8 @@ We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle 
 
 ![ladder frame 450 px](https://github.com/user-attachments/assets/d033e1b5-6092-41a4-9a70-7b7c35e30245)
 
+![ladder chassis drawing 450 px](https://github.com/user-attachments/assets/63a85143-5e66-408b-8fa5-6684a05fd3c3)
+
 ### Rear axle, gearbox and power.
 
 We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
