@@ -69,6 +69,7 @@ We power our drivetrain using a **Geekservo 2kg motor**, which is connected to o
 
 We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo**. The Ackermann principle allows our vehicle's wheels to turn at different angles during a turn, ensuring they follow concentric circles with a common center point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy.
 
+![3 7 v battery 450 px](https://github.com/user-attachments/assets/4611aa1f-c1f4-431b-8641-8d71afb82c14)
 
 ## Power and Sensor Management
 
