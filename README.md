@@ -39,5 +39,3 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 
 Our robot, ***POP***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors track boundaries to ensure it stays within limits and maintains accurate navigation. It can also visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
 
-
-sensor holder](https://github.com/user-attachments/assets/205e6588-8935-4ccc-b694-8fcfcb79d7d3)|
