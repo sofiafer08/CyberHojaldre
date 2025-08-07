@@ -18,8 +18,8 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 | **Sofia Fernández** | **Antonio Franco** | **Emilia Lever** | 
 | ------------------- | ------------------- | ------------------- |
 | image sofi | Image toño | image emilia |
-| <ins>GitHub master, team spirit leader, and marketing director</ins> | <ins>Goofy designer and mechanics lead, invested in every part of the project</ins> | <ins>Silly, geeky programme</ins> | 
-| *16 years old* | *15 years old* | *15 years old* |
+| *GitHub master, team spirit leader, and marketing director* | *Goofy designer and mechanics lead, invested in every part of the project* | *Silly, geeky programmer* | 
+| <ins>16 years old*</ins> | <ins>15 years old</ins> | <ins>15 years old</ins> |
 
 ### Sofía Fernández
 
