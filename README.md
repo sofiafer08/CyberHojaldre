@@ -36,14 +36,15 @@ We are ***CyberHojaldre***,  a dedicated team representing Thomas Jefferson 
 
 ## Contents
 
-* [`Code Explained`](./Code_Explained/README.md) contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
-
+* [`Code Explained`](./Code_Explained) contains 2 photos of the team (an official one and one funny photo with all team members)
+* [`Control Software`](./Control_Software) contains 6 photos of the vehicle (from every side, from top and bottom)
+* [`Meet the Team`](./Meet_the_Team) contains the video.md file with the link to a video where driving demonstration exists
+* [`Mobility Management`](./Mobility_Management) contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+* [`Models and Components`](./Models_&_Components) contains code of control software for all components which were programmed to participate in the competition
+* [`Power and Sense Management`](./Power_&_Sense_Management)is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
+* [`Schemes`](./Schemes) is for other files
+* [`Vehicles Photos`](./V-photos) lol
+* [`Performance Video`](./Video)
 
 ## Robot Objectives
 
