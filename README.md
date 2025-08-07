@@ -6,7 +6,8 @@ CyberHojaldre - Future Engineers
 
 ## About Us
 
-We are ***CyberHojaldre***,  a dedicated team representing Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Composed of Emilia Lever, Sofía Fernández, and Antonio Franco. Guided by our passion for robotics and inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own.
+We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Composed of Emilia Lever, Sofía Fernández, and Antonio Franco. This is our first year partcipating in these category and we are guided by our passion for robotics, comradery and are inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own. 
+Together we have worked for months to bring our robot **POP** life. Through the course of this competitions we have continously refined our pre-existing skills, and have gotten the opportunity to expand our knowledge about electronics, mechanics, programming and teamwork. 
 
 
 ## Team Members
@@ -36,15 +37,16 @@ We are ***CyberHojaldre***,  a dedicated team representing Thomas Jefferson 
 
 ## Contents
 
-* [`Code Explained`](./Code_Explained) contains 2 photos of the team (an official one and one funny photo with all team members)
-* [`Control Software`](./Control_Software) contains 6 photos of the vehicle (from every side, from top and bottom)
-* [`Meet the Team`](./Meet_the_Team) contains the video.md file with the link to a video where driving demonstration exists
-* [`Mobility Management`](./Mobility_Management) contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* [`Models and Components`](./Models_&_Components) contains code of control software for all components which were programmed to participate in the competition
-* [`Power and Sense Management`](./Power_&_Sense_Management)is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* [`Schemes`](./Schemes) is for other files
-* [`Vehicles Photos`](./V-photos) lol
-* [`Performance Video`](./Video)
+* [`Code Explained`](./Code_Explained) This files contains an in-depth description on the way our program runs, and the process of making it. 
+* [`Control Software`](./Control_Software) This file contains code of control software for all components which were programmed to participate in the competition.
+* contains 6 photos of the vehicle (from every side, from top and bottom)
+* [`Meet the Team`](./Meet_the_Team) Here you can find a short description of our team, who are our members, and several team photos. 
+* [`Mobility Management`](./Mobility_Management) Inside it, are the strategic choices we made to achieve an efficient robot. 
+* [`Models and Components`](./Models_&_Components) Here are all the 3D models designed by us to bring our robot to life, and a list of all its components. 
+* [`Power and Sense Management`](./Power_&_Sense_Management) Inside this file is the description of the electrical distribution of our robot. 
+* [`Schemes`](./Schemes) This file contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+* [`Vehicles Photos`](./V-photos) Here you can find multiple photos of our robot taken from different perspectives (from every side, top and bottom. 
+* [`Performance Video`](./Video) This file contains the performance video of our robot during the open course.
 
 ## Robot Objectives
 
