@@ -1,3 +1,11 @@
+## 3D Models 
+
+* [Chasis Image](./Models_&_Components/Ladder_Chassis_drawing_v1.pdf)
+* [Chasis interactive stl](./Models_&_Components/Chasis.stl)
+* [Image of Ultrasonic sensors support](./Models_&_Components/Ultrasonic_Sensor_Support_drawing_v1.pdf) 
+* [Ultrasonic sensor support interactive stl](./Models_&_Components/SoporteUltrasónico.stl)
+  
+
 ## List of components:
 
 | Quantity | Name | Image | 
@@ -9,11 +17,3 @@
 | 1 | **Geekservo 2kg Motor:** This motor offers high power with dual output LEGO axles, which we use to provide power to our rear wheel drive.  | ![red motoro foto ](https://github.com/user-attachments/assets/4c64a7d7-cd24-4a07-8d68-9547b2d9988b)| 
 | 1 | **3D printed LEGO compatible ladder chassis:** Custom designed chassis to place all of the electromechanical components. | ![Foto chasis 356](https://github.com/user-attachments/assets/bcf54100-cc62-41cf-b7a2-986d5c706e9e) |
 | 1 | **3D printed LEGO compatible ultrasonic sensor support:** Custom designed 45° angled mount for our three ultrasonic sensors. | ![foto sensor holder](https://github.com/user-attachments/assets/205e6588-8935-4ccc-b694-8fcfcb79d7d3)|
-
-
-## 3D Models 
-
-* [Chasis Image](./Models_&_Components/Ladder_Chassis_drawing_v1.pdf)
-* [Chasis interactive stl](./Models_&_Components/Chasis.stl)
-* [Image of Ultrasonic sensors support](./Models_&_Components/Ultrasonic_Sensor_Support_drawing_v1.pdf) 
-* [Ultrasonic sensor support interactive stl](./Models_&_Components/SoporteUltrasónico.stl) 
