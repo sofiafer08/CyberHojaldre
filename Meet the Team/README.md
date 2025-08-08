@@ -3,10 +3,16 @@ Meet the members of our team
 
 ## Sofia Fernández
 
+![foto sofi naranja 300px](https://github.com/user-attachments/assets/138eb12c-d3d8-4c41-9da4-83175e833b14)
+
 My name is Sofia Fernandez, I’m a 16-year-old girl from Honduras currently living in Panama. I moved here last year in search of better opportunities, and since then, I’ve discovered a passion for robotics and everything related to STEM. This new environment has inspired me to keep learning, growing, and exploring all the possibilities within science, technology, engineering, and math. I’m always looking for ways to expand my knowledge and take on new challenges in the STEM world.
 
 
 ## Antonio Franco 
+
+![Foto de toño working 300px x 225px](https://github.com/user-attachments/assets/ceb1f102-6606-4513-a915-01912e04267b)
+
+
 
 My name is Antonio Franco, I’m a 15-year-old boy born in Panama. I’ve shared a passion for STEM and engineering from an early age, making my career in robotics very vast. In my path, i’ve discovered that Computer Aided Design or CAD is my main talent, which i’ve incorporated in each one of my projects. Competitions like FRC or WRO are constant challenges for my skills, which inspire me each day to aim higher, to prove i’m capable of achieving success. STEM always keeps me growing and improving, and I always look forward to challenge myself with each project.
 
