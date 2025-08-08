@@ -33,7 +33,7 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 * [`Power and Sense Management`](./Power_&_Sense_Management/README.md) Inside this file is the description of the electrical distribution of our robot. 
 * [`Schemes`](./Schemes/README.md) This file contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
 * [`Vehicles Photos`](./V-photos/README.md) Here you can find multiple photos of our robot taken from different perspectives (from every side, top and bottom. 
-* [`Performance Video`](./Video/README.md) This file contains the performance video of our robot during the open course.
+* [`Performance Video`](./Video) This file contains the performance video of our robot during the open course.
 
 ## Robot Objectives
 
