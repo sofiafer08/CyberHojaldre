@@ -24,7 +24,7 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 
 ## Table of Contents
 
-* [`Code Explained`](./Code_Explained/README.md) This files contains an in-depth description on the way our program runs, and the process of making it. 
+* [`Code Explained`](./CodeExplained/README.md) This files contains an in-depth description on the way our program runs, and the process of making it. 
 * [`Control Software`](./Control_Software/README.md) This file contains code of control software for all components which were programmed to participate in the competition.
 * contains 6 photos of the vehicle (from every side, from top and bottom)
 * [`Meet the Team`](./Meet_the_Team/README.md) Here you can find a short description of our team, who are our members, and several team photos. 
