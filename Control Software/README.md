@@ -1,6 +1,6 @@
 Control software
 ====
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
+This directory contains the code for both the Open and Obstacle Course. Since the programmaing was done in MakeCode for micro:bit, you can find the .png's for the code in blocks, and the JavaScript. 
 
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
+An explanation about our coding decisions can be found in [Code Explained](Code_Explained) .
