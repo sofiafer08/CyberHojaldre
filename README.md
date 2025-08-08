@@ -16,7 +16,7 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 ## Team Members
 
 | **Sofia Fernández** | **Antonio Franco** |   **Emilia Lever**   | 
-| :-----------------: | :---------------: | :------------------: |
+| :----------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------: |
 | ![fotito sofi con pop 201px](https://github.com/user-attachments/assets/ef771648-98a6-4a5f-bfe8-3340fc27d58f) | ![Fotito toño trukey 201px](https://github.com/user-attachments/assets/94091a36-3cbb-4ee7-920f-ede0243a31a2) | ![Fotito Emilia 201px](https://github.com/user-attachments/assets/e7f65623-b40c-42e2-b52c-9eec4f22109c) |
 | *GitHub master, team spirit leader, and marketing director* | *Goofy designer and mechanics lead, invested in every part of the project* | *Silly, geeky programmer and electrician* | 
 | <ins>16 years old</ins> | <ins>15 years old</ins> | <ins>15 years old</ins> |
