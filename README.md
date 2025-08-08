@@ -24,16 +24,16 @@ Together we have worked for months to bring our robot **POP** life. Through the 
 
 ## Table of Contents
 
-* [`Code Explained`](./Code_Explained) This files contains an in-depth description on the way our program runs, and the process of making it. 
-* [`Control Software`](./Control_Software) This file contains code of control software for all components which were programmed to participate in the competition.
+* [`Code Explained`](./Code_Explained/README.md) This files contains an in-depth description on the way our program runs, and the process of making it. 
+* [`Control Software`](./Control_Software/README.md) This file contains code of control software for all components which were programmed to participate in the competition.
 * contains 6 photos of the vehicle (from every side, from top and bottom)
-* [`Meet the Team`](./Meet_the_Team) Here you can find a short description of our team, who are our members, and several team photos. 
-* [`Mobility Management`](./Mobility_Management) Inside it, are the strategic choices we made to achieve an efficient robot. 
-* [`Models and Components`](./Models_&_Components) Here are all the 3D models designed by us to bring our robot to life, and a list of all its components. 
-* [`Power and Sense Management`](./Power_&_Sense_Management) Inside this file is the description of the electrical distribution of our robot. 
-* [`Schemes`](./Schemes) This file contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* [`Vehicles Photos`](./V-photos) Here you can find multiple photos of our robot taken from different perspectives (from every side, top and bottom. 
-* [`Performance Video`](./Video) This file contains the performance video of our robot during the open course.
+* [`Meet the Team`](./Meet_the_Team/README.md) Here you can find a short description of our team, who are our members, and several team photos. 
+* [`Mobility Management`](./Mobility_Management/README.md) Inside it, are the strategic choices we made to achieve an efficient robot. 
+* [`Models and Components`](./Models_&_Components/README.md) Here are all the 3D models designed by us to bring our robot to life, and a list of all its components. 
+* [`Power and Sense Management`](./Power_&_Sense_Management/README.md) Inside this file is the description of the electrical distribution of our robot. 
+* [`Schemes`](./Schemes/README.md) This file contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+* [`Vehicles Photos`](./V-photos/README.md) Here you can find multiple photos of our robot taken from different perspectives (from every side, top and bottom. 
+* [`Performance Video`](./Video/README.md) This file contains the performance video of our robot during the open course.
 
 ## Robot Objectives
 
