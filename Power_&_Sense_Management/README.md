@@ -3,7 +3,7 @@ Power and Sensor Management
 
 ## Power Source
 
-The power source of ***POP*** is a **Li-ion battery pack** with a nominal voltage of **3.7 V DC** and a storage capacity of **400mAh**.
+The power source of ***POP*** is **two 18650 Rechargeable Lithium-Ion Batteries**, each with a nominal voltage of **3.7 V DC** and a storage capacity of **2800 mAh**. They are coupled on a **two Slot 18650 Battery Holder** which is connected to the VMS (power input) and GND (negative ground connection) ports on our **Module L298P Motor Shield HW-723**. This shield supplies all of our actuators and sensors.
 
 ![3 7 v battery 450 px](https://github.com/user-attachments/assets/0e918ebd-4e33-46e6-9e13-69211f99e40b)
 
