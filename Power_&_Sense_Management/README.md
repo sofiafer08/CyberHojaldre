@@ -13,8 +13,7 @@ The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-
 
 We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm to 400cm** of non-contact measurement functionality with a ranging accuracy that can reach up to **3mm**. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit. We placed a sensor on each side (left and right) of our autonomous vehicle. Their purpose is to detect the track's walls in order to avoid collisions.
 
-![rechargeable-li-ion-battery 200](https://github.com/user-attachments/assets/af8bfcec-93c7-4e1b-8576-6092b211318f)
-
+![ultrasonic sensor 200](https://github.com/user-attachments/assets/6632f6f2-d8f8-4e4d-a60d-f3a8f5e15b7c)
 
 ### Color Sensor
 
