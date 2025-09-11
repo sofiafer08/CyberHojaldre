@@ -15,8 +15,8 @@ We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm 
 
 ### Color Sensor
 
-We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety of colors based on their wavelength. This sensor is specially useful for color recognition projects such as color matching and color sorting. Its purpose is to detect the diagonal lines which merge on the track's walls in order to make precise turns.
+We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety of colors based on their wavelength. This sensor is specially useful for color recognition projects such as color matching and color sorting. Each TCS3200 module includes an array of photodiodes, filters for different colors, and a control circuit. Its purpose is to detect the diagonal lines which merge on the track's walls in order to make precise turns.
 
 ### HuskyLens Camera
 
-We used a **HUSKYLENS Smart Vision Sensor**. The senso
+We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recognize objects, faces and colors using built-in AI algorithms. It is especially useful for projects involving computer vision, such as object tracking and autonomous navigation. Each HUSKYLENS module includes a camera, a processor for AI functions and a interface with a digital display and buttons. Its purpose is to detect incoming 
