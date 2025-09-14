@@ -18,6 +18,8 @@ Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driv
 
 ## Past Projects
 
+Before bringing Captain ÑomÑom to life, we had worked together to create robot called POP. POP -Short for People Is Nice- was able to complete the open course challenging and park in its starting position. He was built with the help of a 3D printed chassis and sensor mount that complemented lego pieces. POP completed the course slowly but accuarteley, but was unable to dodge obstacles. This is why we decided to start over with a new project a month before nationals. It would involve replacing most components, programming from scratch, and changing the entire dynamic we had with POP. This is how Captain ÑomÑom was born, thanks to an extensive creative process, and the merging of all our ideas. We are beyond excited for you to learn about all the specifications of Cap. and hope you are able to see the technical growth required for the compeltion of this project. We keep POP in our hearts, and use him as inspiration for every cable wired and every line of code. Enjoy!
+
 ## Team Members
 
 | **Sofia Fernández** | **Antonio Franco** |   **Emilia Lever**   | 
