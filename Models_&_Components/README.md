@@ -4,6 +4,8 @@
 * [Chassis interactive stl](./Chassis.stl)
 * [Image of Servo_Bracket](./) 
 * [Servo_Bracket_Interactive stl](./)
+* [Image of Motor_Axle](./) 
+* [Motor_Axle_Interactive stl](./)
   
 
 ## List of components:
