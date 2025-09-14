@@ -3,9 +3,9 @@
 * [Chassis Images](./Chassis_Images.pdf)
 * [Chassis interactive stl](./Chassis.stl)
 * [Image of Servo_Bracket](./) 
-* [Servo_Bracket_Interactive stl](./)
+* [Servo_Bracket_Interactive stl](./Servomotor_lego_bracket.stl)
 * [Image of Motor_Axle](./) 
-* [Motor_Axle_Interactive stl](./)
+* [Motor_Axle_Interactive stl](./tt_Motor_Axle.stl)
   
 
 ## List of components:
