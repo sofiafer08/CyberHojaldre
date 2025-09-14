@@ -33,7 +33,7 @@ Before bringing Captain ÑomÑom to life, we had worked together to create robot
 
 * [`Code Explained`](./Code_Explained) This files contains an in-depth description on the way our program runs, and the process of making it. 
 * [`Control Software`](./Control_Software) This file contains code of control software for all components which were programmed to participate in the competition.
-* [`V-Photos`](./V-Photos) Contains 6 photos of the vehicle (from every side, from top and bottom)
+* [`V-Photos`](./V-photos) Contains 6 photos of the vehicle (from every side, from top and bottom)
 * [`Meet the Team`](./Meet_the_Team) Here you can find a short description of our team, who are our members, and several team photos. 
 * [`Mobility Management`](./Mobility_Management) Inside it, are the strategic choices we made to achieve an efficient robot. 
 * [`Models and Components`](./Models_&_Components) Here are all the 3D models designed by us to bring our robot to life, and a list of all its components. 
