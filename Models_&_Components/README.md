@@ -1,6 +1,6 @@
 ## 3D Models 
 
-* [Chasis Image](./Models_&_Components/Ladder_Chassis_drawing_v1.pdf)
+* [Chasis Images](./Models_&_Components/Ladder_Chassis_drawing_v1.pdf)
 * [Chasis interactive stl](./Models_&_Components/Chasis.stl)
 * [Image of Ultrasonic sensors support](./Models_&_Components/Ultrasonic_Sensor_Support_drawing_v1.pdf) 
 * [Ultrasonic sensor support interactive stl](./Models_&_Components/SoporteUltrasónico.stl)
