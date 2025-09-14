@@ -1,7 +1,7 @@
 ## 3D Models 
 
 * [Chassis Images](./Chassis_Images.pdf)
-* [Chassis interactive stl](./Models_&_Components/Chasis.stl)
+* [Chassis interactive stl](./Chassis.stl)
 * [Image of Ultrasonic sensors support](./Models_&_Components/Ultrasonic_Sensor_Support_drawing_v1.pdf) 
 * [Ultrasonic sensor support interactive stl](./Models_&_Components/SoporteUltrasónico.stl)
   
