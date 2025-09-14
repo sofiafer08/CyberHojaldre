@@ -1,6 +1,10 @@
 CyberHojaldre - Future Engineers
 ====
 
+## Project Summary
+
+Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors track boundaries to ensure it stays within limits and maintains accurate navigation. It can also visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
+
 ![Team Photo](https://github.com/user-attachments/assets/2b8eb2cc-1bda-45cc-b32c-c9ec3082d0b5)
 
 
@@ -34,7 +38,3 @@ Together we have worked for months to bring our robot **Captain ÑomÑom** life.
 * [`Schemes`](./Schemes) This file contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
 * [`Vehicles Photos`](./V-photos/) Here you can find multiple photos of our robot taken from different perspectives (from every side, top and bottom. 
 * [`Performance Video`](./Video) This file contains the performance video of our robot during the open course.
-
-## Robot Objectives
-
-Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors track boundaries to ensure it stays within limits and maintains accurate navigation. It can also visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
