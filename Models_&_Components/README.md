@@ -12,8 +12,9 @@
 
 | Quantity | Name | Image | 
 |----------|------|-------|
-| 1 | **TCS3200 Color Sensor Module:** Supply Voltage: 2.7V – 5.5V (works with 3.3V or 5V systems).
-| | Output: Digital square wave, frequency proportional to light intensity.
+| 1 | **TCS3200 Color Sensor Module:** 
+Supply Voltage: 2.7V – 5.5V (works with 3.3V or 5V systems). 
+Output: Digital square wave, frequency proportional to light intensity.
 Photodiodes: 64 total (16 red, 16 green, 16 blue, 16 clear).
 Frequency Scaling: 100%, 20%, 2% (set with pins S0 & S1).
 Operating Range (distance): Best at 1–3 cm from the object (beyond that accuracy drops).
