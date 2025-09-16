@@ -2,7 +2,7 @@ CyberHojaldre - Future Engineers
 ====
 
 ![Team Photo](https://github.com/user-attachments/assets/2b8eb2cc-1bda-45cc-b32c-c9ec3082d0b5)
-l
+
 
 ## About Us
 
