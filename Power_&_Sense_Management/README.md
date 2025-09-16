@@ -17,14 +17,20 @@ We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm 
 
 ![ultrasonic sensor 200](https://github.com/user-attachments/assets/6632f6f2-d8f8-4e4d-a60d-f3a8f5e15b7c)
 
+**Key Specifications:**
+
 ### Color Sensor
 
 We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety of colors based on their wavelength. This sensor is specially useful for color recognition projects such as color matching and color sorting. Each TCS3200 module includes an array of photodiodes, filters for different colors, and a control circuit. Its purpose is to detect the diagonal lines which merge on the track's walls in order to make precise turns.
 
 ![color sensor 200](https://github.com/user-attachments/assets/2ab3d839-41a9-42f2-8112-a007d9c1f435)
 
+**Key Specifications:**
+
 ### HuskyLens Camera
 
 We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recognize objects, faces and colors using built-in AI algorithms. It is especially useful for projects involving computer vision, such as object tracking and autonomous navigation. Each HUSKYLENS module includes a camera, a processor for AI functions and a interface with a digital display and buttons. Its purpose is to detect incoming trafic signs and identify their color in order to indicate our vehicle side of the lane it must follow in the obstacle challenge.
 
 ![Husky lens 200](https://github.com/user-attachments/assets/fb5a7aea-b139-4649-8c0e-841a44ab04ed)
+
+**Key Specifications:**
