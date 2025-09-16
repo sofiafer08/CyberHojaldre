@@ -10,6 +10,7 @@ The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-
 ![rechargeable-li-ion-battery 200](https://github.com/user-attachments/assets/abf8f06b-ad78-4fbc-835e-d01e77e46077)
 
 **Key Specifications:**
+For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the 18650 Rechargeable Lithium-Ion Battery's datasheet.
 
 ## Sensors
 
