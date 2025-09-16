@@ -12,7 +12,7 @@
 
 | Quantity | Name | Utility | Voltage | Image | 
 |----------|------|---------|---------|-------|
-| 1 | **TCS3200 Color Sensor Module** | ![color sensor 356](https://github.com/user-attachments/assets/ce397574-aec2-4b49-a00d-8e3bb26f0e70) |
+| 1 | **TCS3200 Color Sensor Module** | To detect the diagonal lines which merge on the track's walls in order to make precise turns. | ![color sensor 356](https://github.com/user-attachments/assets/ce397574-aec2-4b49-a00d-8e3bb26f0e70) |
 | 1 | **HUSKYLENS Smart Vision Sensor** | ![Husky lens 356](https://github.com/user-attachments/assets/211e5141-d22f-4ca9-9e52-02754dab2b35) |
 | 2 | **HC-SR04 Ultrasonic Distance Sensors** | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
 | 1 | **Arduino UNO R4 WiFi** | ![Arduino r4 356](https://github.com/user-attachments/assets/4e7521c7-fb76-445a-9f15-b55cba352e9b)|
