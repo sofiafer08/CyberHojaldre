@@ -9,7 +9,7 @@ We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson S
 Together we have worked for months to bring our robot **Captain ÑomÑom** to life. Through the course of this competitions we have continously refined our pre-existing skills, and have gotten the opportunity to expand our knowledge about electronics, mechanics, programming and teamwork. 
 
 >[!NOTE]
-> We are always working on improving **Captain ÑomÑom's** performance! This means small tweaks are being made in every regional, which we may not be able to update immediately. 
+> We are always working on improving **Captain ÑomÑom's** performance! This means small tweaks are being made in every competition, which we may not be able to update immediately. 
  
 ## Project Summary
 
