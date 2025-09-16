@@ -5,11 +5,15 @@ Power and Sensor Management
 
 ### Batteries
 
-The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-Ion Batteries**, each with a nominal voltage of **3.7Vdc** and a storage capacity of **2800 mAh**. They are coupled on a **two Slot 18650 Battery Holder** which is connected to the VMS (power input) and GND (negative ground connection) ports on our **Module L298P Motor Shield HW-723**. The shield regulates the voltage to 5Vdc before supplying power to our **Arduino UNO R4 WiFi**. Then, through our shield's 5V ports, we supply both of our **HC-SR04 Ultrasonic Distance Sensors**, our **HUSKYLENS Smart Vision Sensor**, our **TCS3200 Color Sensor Module**, our **SG90 9G Micro Servo** and our **3V–6V Dual Axis TT Gear Motor**.
+The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-Ion Batteries**, each with a nominal voltage of **3.7Vdc** and a storage capacity of **2800 mAh**. They are coupled on a **two Slot 18650 Battery Holder** which is connected to the VMS (power input) and GND (negative ground connection) ports on our **Module L298P Motor Shield HW-723**. The shield regulates the voltage to 5Vdc before supplying power to our **Arduino UNO R4 WiFi**. Then, through our shield's 5V ports, we supply both of our **HC-SR04 Ultrasonic Distance Sensors**, our **HUSKYLENS Smart Vision Sensor**, our **TCS3200 Color Sensor Module**, our **SG90 9G Micro Servo** and our **3Vdc~6Vdc Dual Axis TT Gear Motor**.
 
 ![rechargeable-li-ion-battery 200](https://github.com/user-attachments/assets/abf8f06b-ad78-4fbc-835e-d01e77e46077)
 
 **Key Specifications:**
+* **Nominal Voltage:** 3.6 Vdc ~ 3.7 Vdc
+* **Nominal Capacity:** 2800 mAh
+* **Cycle Life:** ~1000 cycles (to 80% capacity)
+
 For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the 18650 Rechargeable Lithium-Ion Battery's datasheet.
 
 ## Sensors
