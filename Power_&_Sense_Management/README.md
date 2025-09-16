@@ -3,6 +3,8 @@ Power and Sensor Management
 
 ## Power Source
 
+### Batteries
+
 The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-Ion Batteries**, each with a nominal voltage of **3.7 V DC** and a storage capacity of **2800 mAh**. They are coupled on a **two Slot 18650 Battery Holder** which is connected to the VMS (power input) and GND (negative ground connection) ports on our **Module L298P Motor Shield HW-723**. The shield regulates the voltage to 5 V DC before supplying power to our **Arduino UNO R4 WiFi**. Then, through our shield's 5 V ports, we supply both of our **HC-SR04 Ultrasonic Distance Sensors**, our **HUSKYLENS Smart Vision Sensor**, our **TCS3200 Color Sensor Module**, our **SG90 9G Micro Servo** and our **3V–6V Dual Axis TT Gear Motor**.
 
 ![rechargeable-li-ion-battery 200](https://github.com/user-attachments/assets/abf8f06b-ad78-4fbc-835e-d01e77e46077)
