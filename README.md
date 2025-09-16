@@ -3,7 +3,6 @@ CyberHojaldre - Future Engineers
 
 ![Team Photo](https://github.com/user-attachments/assets/2b8eb2cc-1bda-45cc-b32c-c9ec3082d0b5)
 
-
 ## About Us
 
 We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson School in the Future Engineers category of the WRO® 2025. Composed of Emilia Lever, Sofía Fernández, and Antonio Franco. This is our first year partcipating in this category and we are guided by our passion for robotics, comradery and are inspired by the 2025 season theme “The Future of Robots” —which explores how autonomous systems can shape tomorrow’s world, from smart cities and sustainable infrastructure to space exploration— we have embarked on an ambitious journey to design, build, and program an autonomous four-wheeled robotic vehicle capable of navigating a randomized course on its own. 
