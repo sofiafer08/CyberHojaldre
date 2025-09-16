@@ -41,6 +41,7 @@ We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety 
 ![color sensor 200](https://github.com/user-attachments/assets/2ab3d839-41a9-42f2-8112-a007d9c1f435)
 
 **Key Specifications:**
+For more information, [*click here*](https://www.mouser.com/catalog/specsheets/tcs3200-e11.pdf?srsltid=AfmBOorEgZGDruwtI3xHOg00w5BmGMS5fNyywV3p9RMySATtGV3V-sCV) to open the TCS3200 Color Sensor Module's datasheet.
 
 ### HuskyLens Camera
 
