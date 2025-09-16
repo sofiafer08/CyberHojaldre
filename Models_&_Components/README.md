@@ -10,8 +10,8 @@
 
 ## List of components:
 
-| Quantity | Name | Image | 
-|----------|------|-------|
+| Quantity | Name | Utility | Voltage | Image | 
+|----------|------|---------|---------|-------|
 | 1 | **TCS3200 Color Sensor Module** | ![color sensor 356](https://github.com/user-attachments/assets/ce397574-aec2-4b49-a00d-8e3bb26f0e70) |
 | 1 | **HUSKYLENS Smart Vision Sensor** | ![Husky lens 356](https://github.com/user-attachments/assets/211e5141-d22f-4ca9-9e52-02754dab2b35) |
 | 2 | **HC-SR04 Ultrasonic Distance Sensors** | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
