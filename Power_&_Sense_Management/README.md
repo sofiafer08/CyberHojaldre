@@ -32,6 +32,8 @@ We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm 
 * **Dimension:** 45mm x 20mm x 15mm
 * **Weight:** 9g
 
+[Datasheet here](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
+
 ### Color Sensor
 
 We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety of colors based on their wavelength. This sensor is specially useful for color recognition projects such as color matching and color sorting. Each TCS3200 module includes an array of photodiodes, filters for different colors, and a control circuit. Its purpose is to detect the diagonal lines which merge on the track's walls in order to make precise turns.
