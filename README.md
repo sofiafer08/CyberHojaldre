@@ -1,7 +1,8 @@
 ## CyberHojaldre - Future Engineers
 
+<p>
 <img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?logo=YouTube&logoColor=white&style=for-the-badge"/>
-
+<img alt="Instagram" src="https://img.shields.io/badge/Instagram-FF0069?logo=Instagram&logoColor=white&style=for-the-badge"/>
 
 ---
 
