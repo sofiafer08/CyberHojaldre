@@ -32,7 +32,7 @@ We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm 
 * **Dimension:** 45mm x 20mm x 15mm
 * **Weight:** 9g
 
-[For more information, click on this link to open the HC-SR04 Ultrasonic Distance Sensor's datasheet](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
+[For more information, click *here* to open the HC-SR04 Ultrasonic Distance Sensor's datasheet.](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
 
 ### Color Sensor
 
