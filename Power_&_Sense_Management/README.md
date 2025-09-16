@@ -20,9 +20,17 @@ We used two **HC-SR04 Ultrasonic Distance Sensors**. Each sensor provides **2cm 
 ![ultrasonic sensor 200](https://github.com/user-attachments/assets/6632f6f2-d8f8-4e4d-a60d-f3a8f5e15b7c)
 
 **Key Specifications:**
-Operating Voltage: 3.3Vdc ~ 5Vdc
-Quiescent Current: <2mA
-Operating Current: 15mAOperating Frequency: 40KHzOperating Range: & Accuracy 2cm ~ 400cm ( 1in ~ 13ft) ± 3mmSensitivity: -65dB minSound Pressure: 112dBEffective Angle: 15°Connector: 4-pins header with 2.54mm pitchDimension: 45mm x 20mm x 15mmWeight: 9g
+* **Operating Voltage:** 3.3Vdc ~ 5Vdc
+* **Quiescent Current:** <2mA
+* **Operating Current:** 15mA
+* **Operating Frequency:** 40KHz
+* **Operating Range & Accuracy:** 2cm ~ 400cm ( 1in ~ 13ft) ± 3mm
+* **Sensitivity:** -65dB min
+* **Sound Pressure:** 112dB
+* **Effective Angle:** 15°
+* **Connector:** 4-pins header with 2.54mm pitch
+* **Dimension:** 45mm x 20mm x 15mm
+* **Weight:** 9g
 
 ### Color Sensor
 
