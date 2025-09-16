@@ -55,3 +55,11 @@ We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recogniz
 ![Husky lens 200](https://github.com/user-attachments/assets/fb5a7aea-b139-4649-8c0e-841a44ab04ed)
 
 **Key Specifications:**
+* **Processor:** Kendryte K210
+* **Image Sensor:** OV2640 (2.0Megapixel Camera)
+* **Supply Voltage:** 3.3~5.0V
+* **Current Consumption (TYP):** 320mA@3.3V, 230mA@5.0V (face recognition mode; 80% backlight brightness; fill light off)
+* **Connection Interface:** UART, I2C
+* **Display:** 2.0-inch IPS screen with 320*240 resolution
+* **Built-in Algorithms:** Face Recognition, Object Tracking, Object Recognition, Line Tracking, Color Recognition, Tag Recognition
+* **Dimension:** 52mm * 44.5mm / 2.05 x 1.75inch
