@@ -63,3 +63,5 @@ We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recogniz
 * **Display:** 2in IPS screen with 320 x 240 resolution
 * **Built-in Algorithms:** Face Recognition, Object Tracking, Object Recognition, Line Tracking, Color Recognition, Tag Recognition
 * **Dimension:** 52mm x 44.5mm
+
+For more information, [*click here*](https://www.farnell.com/datasheets/3178377.pdf) to open the HUSKYLENS Smart Vision Sensor.
