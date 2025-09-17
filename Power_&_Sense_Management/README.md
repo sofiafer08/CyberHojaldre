@@ -12,7 +12,7 @@ The power source of ***Captain ÑomÑom*** are **two 18650 Rechargeable Lithium-
 **Key Specifications:**
 * **Nominal Voltage:** 3.6 Vdc ~ 3.7 Vdc
 * **Nominal Capacity:** 2800 mAh
-* **Cycle Life:** ~1000 cycles (to 80% capacity)
+* **Cycle Life:** ~500 cycles (to 80% capacity)
 
 For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the 18650 Rechargeable Lithium-Ion Battery's datasheet.
 
