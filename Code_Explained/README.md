@@ -8,7 +8,8 @@ Since we developed **Captain ÑomÑom**, We have now programmed a new code that 
 + The next part of the code consists on assignig the RGB values of the color blue and orange so that it can accurately detect them during the rounds.
 + The global variables help keep track of the actions the robot is performing. It also establishes objects such as myservo that works as a tool for assigning functions to the physical servo. The PD controller variable work in a similar way. Without it, the formula for the error correction would not be functional.
 + Void SetUp hapens only once when the robot is turned on. This setsup every motor an sensor so that everything is in place in order to start the loop.
-+ 
++ When the loop starts, it first ensures that the maximun amount of sequences hasn't been reached so that it can continue with the loop. It also explains what to do in case the motor is stopped.
++ Then, it has both ultrasonic sensors read the distances and update the servo with the proportionals and derivatives. 
  
 |---|
 
