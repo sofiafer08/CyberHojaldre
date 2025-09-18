@@ -1,7 +1,12 @@
 ## Open Challenge Programming
 
-For our previous robot we programmed using MakeCode for microbit. It consisted of a simple code that would rotate the servo to 210 degrees if the left ultrasonic sensore percieved a distance less than 45cm. The same would happen with the right ultrasonic sensor, but in that case the servo will rotate to 150 degrees. In the case that both sensors read a distance greater than 30cm, the servo was set to 180 degrees and it would continue its straight path. 
+For our previous robot we programmed using MakeCode for microbit. It consisted of a simple code that would rotate the servo to 210 degrees if the left ultrasonic sensore percieved a distance less than 45cm. The same would happen with the right ultrasonic sensor, but in that case the servo will rotate to 150 degrees. In the case that both sensors read a distance greater than 30cm, the servo was set to 180 degrees and it would continue its straight path. Once the time variable ended, the DC motor would be stopped, and our robot would park in the position it started. 
 
+Since we developed **Captain ÑomÑom**, We have now programmed a new code that includes other components that facilitate Cap.'s cruising. 
++ It starts by establishing where each component is connect on the HW-723 shield. We then attribute values to the constants; **Max sequences** (Dictates how many times the color sensor must complete the detection sequenc.e), **Reset delay** (Is responsible for the time that must pass between each color sensor reading.), **Shutdown delay** (Is how much time the robot will wait to shut down once it reaches max sequences.), **Center psoition** (Refers to the angle in which the servo motor will go straight.), and **Motor Speed** (Simply states the speed at which the DC motor will run.)
++ We then work with proportionals and derivatives. These values are altered depending on how much we want our robot correct its error as it tries to reach its center position (**90 degrees**). We also establish that the max and min angles are **135 degrees** and **45 degrees** respectively. This ensueres that Cap. won't perform sharp turns that limit his movenment.
++ 
+ 
 | -------------------------------------------------------------------------- |
 
 Our open challenge programming works by establishing a variable for the two values of the lateral ultrasonic sensors and then creating a time variable that ends once the robot has completed its course. These variables are set as "sensor derch." (Right sensor), and "sensor izq." (Left sensor), so as to facilate the understanding of our code. 
