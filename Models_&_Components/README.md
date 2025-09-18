@@ -17,5 +17,5 @@
 | 2 | **HC-SR04 Ultrasonic Distance Sensors** | To detect the track's walls in order to avoid collisions. | 3.3Vdc ~ 5Vdc | ![actual sensor hc foto](https://github.com/user-attachments/assets/c071d810-4a04-4574-bedc-33bf450cf54f)|
 | 1 | **Arduino UNO R4 WiFi** | lol | doble lol | ![Arduino r4 356](https://github.com/user-attachments/assets/4e7521c7-fb76-445a-9f15-b55cba352e9b)|
 | 1 | **Module L298P Motor Shield HW-723** | lol | lolazo | ![arduino l298p 356](https://github.com/user-attachments/assets/525d93f2-7183-472c-8ee2-c4e46daf2b41)| 
-| 1 | **3V–6V Dual Axis TT Gear Motor** | lol |  3.3Vdc ~ 6Vdc |![Motor amarillo 356](https://github.com/user-attachments/assets/00baf706-972f-49f7-b466-925bc8ef8c92)|
-| 1 | **SG90 9G Micro Servo** | lol | doble lol | ![micro servo 9g 356](https://github.com/user-attachments/assets/29e0b9fe-5c12-4036-b191-90bbad94bc5c)|
+| 1 | **3V–6V Dual Axis TT Gear Motor** | lol |  3Vdc ~ 6Vdc |![Motor amarillo 356](https://github.com/user-attachments/assets/00baf706-972f-49f7-b466-925bc8ef8c92)|
+| 1 | **SG90 9G Micro Servo** | lol | 3Vdc ~ 6Vdc | ![micro servo 9g 356](https://github.com/user-attachments/assets/29e0b9fe-5c12-4036-b191-90bbad94bc5c)|
