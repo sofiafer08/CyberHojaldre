@@ -1,4 +1,6 @@
-General vehicle design
+# Mobility Management
+
+## General vehicle design
 
 The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color in order to indicate our vehicle's side of the lane it must follow in the obstacle challenge and a **TCS3200 Color Sensor Module**	all controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
