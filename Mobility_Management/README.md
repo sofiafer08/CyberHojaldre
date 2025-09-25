@@ -2,11 +2,11 @@
 
 ## General Vehicle Design
 
-The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color in order to indicate our vehicle's side of the lane it must follow in the obstacle challenge and a **TCS3200 Color Sensor Module**	all controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
+The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color and a **TCS3200 Color Sensor Module**	all controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
 ## Chassis
 
-We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a slot for , an Arduino UNO R4 WiFi holder,  . This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
+We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
 ![ladder frame 450 px](https://github.com/user-attachments/assets/d033e1b5-6092-41a4-9a70-7b7c35e30245)
 
