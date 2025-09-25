@@ -1,6 +1,6 @@
 ## General vehicle design
 
-The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors**, a **HUSKYLENS Smart Vision Sensor**	and it's controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
+The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors**, a **HUSKYLENS Smart Vision Sensor**, a **TCS3200 Color Sensor Module**	all controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
 ## Chassis
 
