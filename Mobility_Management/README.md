@@ -1,6 +1,6 @@
 ## General vehicle design
 
-The robotic vehicle is constructed upon a **ladder chassis**. It's powered through the rear axle using a **Geekservo 2kg motor** connected to a **custom LEGO gearbox** and steered with a **Geekservo 2kg 360° servo**. It counts with three **HC-SR04 Ultrasonic Distance Sensors** and it's controlled by a **Micro:bit V2** with a **Wukong Breakout Board**.
+The robotic vehicle is constructed upon a **c**. It's powered through the rear axle using a  and steered with a **Geekservo 2kg 360° servo**. It counts with three **HC-SR04 Ultrasonic Distance Sensors** and it's controlled by a **Micro:bit V2** with a **Wukong Breakout Board**.
 
 ## Chassis
 
