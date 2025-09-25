@@ -1,6 +1,6 @@
 # Mobility Management
 
-## General vehicle design
+## General Vehicle Sesign
 
 The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color in order to indicate our vehicle's side of the lane it must follow in the obstacle challenge and a **TCS3200 Color Sensor Module**	all controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
@@ -12,7 +12,7 @@ We use a custom LEGO compatible PLA 3D printed **ladder chassis**. This vehicle 
 
 ![ladder chassis drawing 450 px](https://github.com/user-attachments/assets/63a85143-5e66-408b-8fa5-6684a05fd3c3)
 
-## Rear axle, gearbox and power.
+## Rear Axle, earbox and power.
 
 We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
 
