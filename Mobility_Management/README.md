@@ -6,7 +6,7 @@ The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powe
 
 ## Chassis
 
-We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
+We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for a **3V–6V Dual Axis TT Gear Motor**. This simple design gives us ease of repair and modification, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
 ![ladder frame 450 px](https://github.com/user-attachments/assets/d033e1b5-6092-41a4-9a70-7b7c35e30245)
 
