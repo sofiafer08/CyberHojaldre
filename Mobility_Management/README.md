@@ -12,7 +12,7 @@ We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehi
 
 ### Rear Axle
 
-We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is directly connected to the vehicle's rear axle through two **3D printed PETG TT Gear Motor to LEGO axle adapter**. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
+We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is directly connected to the vehicle's rear axle through two **3D printed PETG TT Gear Motor to LEGO axle adapters**. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for complex systems such as constant velocity (CV) joints or external gearboxes without sacrificing torque, speed and traction; resulting in a reliable and easy to repair robot.
 
 <img width="450" height="448" alt="geekservo motor 450 px" src="https://github.com/user-attachments/assets/3e6b2bc2-f8ef-4da9-a372-272d3d27e361" />
 
@@ -20,11 +20,11 @@ We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is di
 
 ### Camera mount
 
-The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera mount**. This mount allows us to change the camera's height and angle during the robot's testing in order to enhance the range and accuracy. We connect it to the chassis LEGO pins, as both 3D printed pieces have LEGO compatibility.
+The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera mount**. This mount allows us to change the camera's height and angle during the robot's testing in order to enhance the range and accuracy. We connect it to the chassis LEGO pins, as both 3D printed pieces have LEGO compatibility. This modular piece amplifies the number of setups and uses our camera has, making changes later on easier and less time consuming.
 
 ### Steering
 
-We use an **Ackermann steering**, controlled by our **Geekservo 2kg 360° servo**. The Ackermann principle allows our vehicle's wheels to turn at different angles during a turn, ensuring they follow concentric circles with a common center point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy.
+We use an **Ackermann steering**, proven to be one of the most efficient turn systems thanks to the years of use in the automotive industry. The Ackermann principle is based on a mechanical linkage design that ensures the inner front wheel turns at a sharper angle than the outer front wheel, ensuring they follow concentric circles with a common center point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy. Our 
 
 ![ackermann steering 450 px](https://github.com/user-attachments/assets/a6b9b996-2580-49a3-840b-4c39ff49bd6b)
 
