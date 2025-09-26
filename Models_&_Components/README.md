@@ -8,6 +8,8 @@
 * [Servo_Bracket_Interactive stl](./Servomotor_lego_bracket.stl)
 * [Image of Motor_Axle](./tt_Motor_Axle.jpeg) 
 * [Motor_Axle_Interactive stl](./tt_Motor_Axle.stl)
+* [Image_of_HuskyLens_Mount]
+* [HuskyLens_Mount_Interactive_stl]
   
 
 ## List of components:
