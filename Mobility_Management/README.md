@@ -13,7 +13,7 @@ We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is di
 <img width="450" height="728" alt="image" src="https://github.com/user-attachments/assets/0eee9e03-8bb6-4b8d-b94d-10552d5ad2b8" />
 
 
-<img width="450" height="1080" alt="image" src="https://github.com/user-attachments/assets/13899b38-ac24-4481-843e-970dbb9b70c7" />
+<img width="450" height="728" alt="image" src="https://github.com/user-attachments/assets/13899b38-ac24-4481-843e-970dbb9b70c7" />
 
 ### Steering
 
