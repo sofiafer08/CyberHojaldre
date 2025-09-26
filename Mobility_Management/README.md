@@ -25,5 +25,5 @@ The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera
 ### Steering
 
 We use an **Ackermann steering**, proven to be one of the most efficient turn systems thanks to the years of use in the automotive industry. The Ackermann principle ensures that a vehicle's inner front wheel turns at a greater angle than the outer front wheel during a turn, allowing both wheels to trace concentric circles around a single virtual pivot point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy. This steering system also provides a wide range of movement, making the vehicle highly maneuverable.
-![ackermann steering 450 px](https://github.com/user-attachments/assets/a6b9b996-2580-49a3-840b-4c39ff49bd6b)
 
+![ackermann steering 450 px](https://github.com/user-attachments/assets/a6b9b996-2580-49a3-840b-4c39ff49bd6b)
