@@ -4,12 +4,12 @@
 
 * [Chassis Images](./Chassis_Images.pdf)
 * [Chassis interactive stl](./Chassis.stl)
-* [Image of Servo_Bracket](./Servomotor_lego_bracket.jpeg) 
-* [Servo_Bracket_Interactive stl](./Servomotor_lego_bracket.stl)
-* [Image of Motor_Axle](./tt_Motor_Axle.jpeg) 
-* [Motor_Axle_Interactive stl](./tt_Motor_Axle.stl)
-* [Image_of_HuskyLens_Mount]
-* [HuskyLens_Mount_Interactive_stl]
+* [Image of Servo Bracket](./Servomotor_lego_bracket.jpeg) 
+* [Servo Bracket Interactive stl](./Servomotor_lego_bracket.stl)
+* [Image of Motor Axle](./tt_Motor_Axle.jpeg) 
+* [Motor Axle Interactive stl](./tt_Motor_Axle.stl)
+* [Image of HuskyLens Mount](./)
+* [HuskyLens Mount Interactive stl](./)
   
 
 ## List of components:
