@@ -39,3 +39,5 @@ In order to directly connect our **3V–6V Dual Axis TT Gear Motor** to the vehi
 ### Camera Mount
 
 The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera mount**. This mount allows us to change the camera's height and angle during the robot's testing in order to enhance the range and accuracy. We connect it to the chassis LEGO pins, as both 3D printed pieces have LEGO compatibility. This modular piece amplifies the number of setups and uses our camera has, making changes later on easier and less time consuming.
+
+<img width="425" height="480" alt="Captura de pantalla 2025-09-26 104955" src="https://github.com/user-attachments/assets/f6ecb51b-15cf-4a7d-bace-760bb307da12" />
