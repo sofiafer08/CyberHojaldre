@@ -2,7 +2,7 @@
 
 ## General Vehicle Design
 
-The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color and a **TCS3200 Color Sensor Module**. All systems are controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
+The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color and a **TCS3200 Color Sensor Module** which serves as a backup for the camera. All systems are controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
 ## 3D Printed Parts
 
@@ -12,12 +12,15 @@ We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehi
 
 ### Rear Axle
 
-We power our drivetrain using a **Geekservo 2kg motor**, which is connected to our rear axle through a **custom LEGO gearbox** with a **1:3 gear ratio**, this means the follower gear rotates 3 times per each rotation of the driver gear, increasing speed 3 times and decreasing torque 3 times. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
+We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is directly connected to the vehicle's rear axle through a **3D printed PETG TT Gear Motor to LEGO axle adapter**. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for constant velocity (CV) joints without sacrificing torque, speed and traction.
 
 <img width="450" height="448" alt="geekservo motor 450 px" src="https://github.com/user-attachments/assets/3e6b2bc2-f8ef-4da9-a372-272d3d27e361" />
 
-
 ![gearbox 450 px](https://github.com/user-attachments/assets/6c10aa01-75c3-4df3-8871-256c79907bfb)
+
+### Camera mount
+
+The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera mount**. This mount allows us to change the camera's height and angle during the robot's testing in order to enhance the range and accuracy. We connect it to the chassis LEGO pins, as both 3D printed pieces have LEGO compatibility.
 
 ### Steering
 
