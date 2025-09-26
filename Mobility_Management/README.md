@@ -24,7 +24,7 @@ We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehi
 
 ### Rear Axle Adapters
 
-In order to directly connect our **3V–6V Dual Axis TT Gear Motor** to the vehicle's rear axle, we designed two **3D printed PETG adapters**. From one side, the adapter is able to connect to the **3V–6V Dual Axis TT Gear Motor's** axle, while from the other its able to couple with a LEGO Technic axle, allowing us to use LEGO wheels and tires to provide enough traction.
+In order to directly connect our **3V–6V Dual Axis TT Gear Motor** to the vehicle's rear axle, we designed two **3D printed PETG adapters**. From one side, the adapter is able to connect to the **3V–6V Dual Axis TT Gear Motor's** axle, while from the other its able to couple with a LEGO Technic axle, allowing us to use LEGO wheels and tires to provide traction.
 
 ### Camera Mount
 
