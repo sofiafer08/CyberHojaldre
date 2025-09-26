@@ -12,16 +12,15 @@ We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is di
 
 <img width="" height="253" alt="image" src="https://github.com/user-attachments/assets/0eee9e03-8bb6-4b8d-b94d-10552d5ad2b8" />
 
-
 <img width="450" height="" alt="image" src="https://github.com/user-attachments/assets/13899b38-ac24-4481-843e-970dbb9b70c7" />
 
 ### Steering
 
 We use an **Ackermann steering** built using LEGO parts. This steering system is proven to be one of the most efficient and reliable which is demonstrated by its years of use in the automotive industry. The Ackermann principle ensures that a vehicle's inner front wheel turns at a greater angle than the outer front wheel during a turn, allowing both wheels to trace concentric circles around a single virtual pivot point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy. This steering system also provides a wide range of movement, making the vehicle highly maneuverable.
 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e101e4c-5995-465d-b030-fe04e6145801" />
+<img width="1702" height="970" alt="image" src="https://github.com/user-attachments/assets/9ecb0b7e-72fd-41a1-a149-a63a72c827d8" />
 
-![ackermann steering 450 px](https://github.com/user-attachments/assets/a6b9b996-2580-49a3-840b-4c39ff49bd6b)
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e101e4c-5995-465d-b030-fe04e6145801" />
 
 ## 3D Printed Parts
 
