@@ -20,7 +20,7 @@ We use an **Ackermann steering** built using LEGO parts. This steering system is
 
 <img width="1702" height="970" alt="image" src="https://github.com/user-attachments/assets/9ecb0b7e-72fd-41a1-a149-a63a72c827d8" />
 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e101e4c-5995-465d-b030-fe04e6145801" />
+<img width="450" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e101e4c-5995-465d-b030-fe04e6145801" />
 
 ## 3D Printed Parts
 
