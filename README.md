@@ -7,7 +7,6 @@
 
 <img width="600" height="" alt="image" src="https://github.com/user-attachments/assets/95ea5032-c126-44d1-87cd-f5cfc3762e0a" />
 
----
 
 ## About Us
 
