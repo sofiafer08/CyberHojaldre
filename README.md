@@ -1,5 +1,8 @@
 ## CyberHojaldre - Future Engineers
 
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/385073b1-7b4a-4f86-98fa-2e070ffd435c" />
+
 <p>
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=YouTube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@CyberHojaldre)
