@@ -1,7 +1,7 @@
 ## CyberHojaldre - Future Engineers
 
 
-<img width="" height="600" alt="image" src="https://github.com/user-attachments/assets/385073b1-7b4a-4f86-98fa-2e070ffd435c" />
+<img width="" height="200" alt="image" src="https://github.com/user-attachments/assets/385073b1-7b4a-4f86-98fa-2e070ffd435c" />
 
 <p>
 
