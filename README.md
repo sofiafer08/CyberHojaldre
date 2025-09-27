@@ -10,6 +10,7 @@
 ---
 
 ![Team Photo](https://github.com/user-attachments/assets/2b8eb2cc-1bda-45cc-b32c-c9ec3082d0b5)
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/9a3abaeb-7d20-4aa0-b82e-b2cdebaae01a" />
 
 
 ## About Us
