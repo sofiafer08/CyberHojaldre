@@ -9,7 +9,6 @@
 
 ---
 
-![Team Photo](https://github.com/user-attachments/assets/2b8eb2cc-1bda-45cc-b32c-c9ec3082d0b5)
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/9a3abaeb-7d20-4aa0-b82e-b2cdebaae01a" />
 
 
@@ -24,7 +23,7 @@ We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson S
 
 Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors track boundaries to ensure it stays within limits and maintains accurate navigation. It can also visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
 
-<img width="1179" height="1454" alt="image" src="https://github.com/user-attachments/assets/e65614f0-df91-4dcb-9a5c-ab11e0cbd8f6" />
+<img width="800" height="1454" alt="image" src="https://github.com/user-attachments/assets/e65614f0-df91-4dcb-9a5c-ab11e0cbd8f6" />
 
 ## Past Projects
 
