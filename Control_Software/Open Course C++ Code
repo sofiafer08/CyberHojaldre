@@ -13,56 +13,50 @@
 
 // Constants
 #define MAX_SEQUENCES 12
-#define RESET_DELAY 2000
-#define SHUTDOWN_DELAY 3000 
+#define SHUTDOWN_DELAY 500 
 #define CENTER_POSITION 93
 #define SERVO_HOME_POSITION 90
-#define MOTOR_SPEED 180
+#define MOTOR_SPEED 210
 #define MIN_SERVO_ANGLE 78
 #define MAX_SERVO_ANGLE 108
-#define SAFE_DISTANCE 42
-#define STARTUP_DELAY 3000  // NEW: 3-second startup delay
+#define SAFE_DISTANCE 60
+#define STARTUP_DELAY 5000
+#define PARKING_DELAY 1000
+#define PARKING_TURN_DURATION 700
+
+// NEW: Alternative reset delays based on first color detection
+#define RESET_DELAY_ID1 1000 // Faster reset for COLOR_ID1 Orange
+#define RESET_DELAY_ID2 1500  // Slower reset for COLOR_ID2 Blue
 
 // HuskyLens Color IDs
 #define COLOR_ID1 1
 #define COLOR_ID2 2
 
-// Global variables
+// Global variables b. nnnnnnnnnnnnnnnnnnnnnn
 Servo myServo;
 HUSKYLENS huskylens;
 int sequenceCount = 0;
 unsigned long sequenceStartTime = 0;
 unsigned long shutdownStartTime = 0;
+unsigned long parkingStartTime = 0;
 bool sequenceCompleted = false;
 bool motorStopped = false;
 bool shutdownSequenceStarted = false;
 bool detectionPaused = false;
 bool huskylensInitialized = false;
+bool parkingSequenceStarted = false;
+
+// NEW: Variables for alternative reset delays
+int currentResetDelay = 0;        // Will be set based on first detection
+bool firstColorDetected = false;  // Track if we've detected the first color
+int firstColorID = 0;             // Store which color was detected first
 
 int currentServoAngle = CENTER_POSITION;
+int parkingTurnDirection = 0;
 
 void setup() {
-  Serial.begin(9600);
-  
-  // NEW: 3-second pause at startup
-  Serial.println("=== Robot System Starting ===");
-  Serial.println("Initializing in 3 seconds...");
-  delay(STARTUP_DELAY);
-  Serial.println("Starting initialization now!");
-  
-  // Setup hardware
-  pinMode(LEFT_TRIG_PIN, OUTPUT);
-  pinMode(LEFT_ECHO_PIN, INPUT);
-  pinMode(RIGHT_TRIG_PIN, OUTPUT);
-  pinMode(RIGHT_ECHO_PIN, INPUT);
-  
-  myServo.attach(SERVO_PIN);
-  centerServo();
-  
-  pinMode(MOTOR_A_PIN, OUTPUT);
-  pinMode(MOTOR_A_DIR_PIN, OUTPUT);
-  startMotor();
-  
+  Serial.begin(9600); 
+
   // Initialize HuskyLens
   Serial.println("Initializing HuskyLens...");
   Wire.begin();
@@ -80,20 +74,46 @@ void setup() {
   } else {
     Serial.println("✗ HuskyLens failed - using ultrasonic only");
   }
-  
+
   Serial.println("=== System Ready ===");
+  
+  // NEW: Display alternative reset delay information
+  Serial.println("=== ALTERNATIVE RESET DELAYS ===");
+  Serial.print("COLOR_ID1 detected first: Reset Delay = ");
+  Serial.print(RESET_DELAY_ID1);
+  Serial.println("ms");
+  Serial.print("COLOR_ID2 detected first: Reset Delay = ");
+  Serial.print(RESET_DELAY_ID2);
+  Serial.println("ms");
+  Serial.println("================================");
+  
+  Serial.println("=== Robot System Starting ===");
+  Serial.println("Initializing in 3 seconds...");
+  delay(STARTUP_DELAY);
+  Serial.println("Starting initialization now!");
+  
+  // Setup hardware
+  pinMode(LEFT_TRIG_PIN, OUTPUT);
+  pinMode(LEFT_ECHO_PIN, INPUT);
+  pinMode(RIGHT_TRIG_PIN, OUTPUT);
+  pinMode(RIGHT_ECHO_PIN, INPUT);
+  
+  myServo.attach(SERVO_PIN);
+  centerServo();
+  
+  pinMode(MOTOR_A_PIN, OUTPUT);
+  pinMode(MOTOR_A_DIR_PIN, OUTPUT);
+  startMotor();
 }
 
 void loop() {
-  // Shutdown check
-  if (sequenceCount >= MAX_SEQUENCES && !motorStopped && !shutdownSequenceStarted) {
-    Serial.println("=== MAXIMUM SEQUENCES REACHED ===");
-    shutdownSequenceStarted = true;
-    shutdownStartTime = millis();
-    returnServoToHome();
+  // Parking sequence check
+  if (parkingSequenceStarted) {
+    handleParkingSequence();
+    return;
   }
   
-  if (shutdownSequenceStarted && !motorStopped) {
+  if (shutdownSequenceStarted && !motorStopped && !parkingSequenceStarted) {
     if (millis() - shutdownStartTime >= SHUTDOWN_DELAY) {
       stopMotor();
     }
@@ -107,25 +127,70 @@ void loop() {
   int rightDistance = getDistance(RIGHT_TRIG_PIN, RIGHT_ECHO_PIN);
   
   // COLOR DETECTION (HIGH PRIORITY)
-  if (huskylensInitialized && !sequenceCompleted && !shutdownSequenceStarted && !detectionPaused) {
+  if (huskylensInitialized && !sequenceCompleted && !shutdownSequenceStarted && !detectionPaused && !parkingSequenceStarted) {
     processColorDetection();
   } 
-  else if (sequenceCompleted && !shutdownSequenceStarted) {
-    if (millis() - sequenceStartTime >= RESET_DELAY) {
+  else if (sequenceCompleted && !shutdownSequenceStarted && !parkingSequenceStarted) {
+    // ULTRASONIC ACTIVE DURING RESET DELAY
+    updateServoWithUltrasonic(leftDistance, rightDistance);
+    
+    // NEW: Use the appropriate reset delay based on first color detection
+    if (millis() - sequenceStartTime >= currentResetDelay) {
       resetSequence();
     }
   }
   
-  // ULTRASONIC AVOIDANCE (LOW PRIORITY)
-  if (!sequenceCompleted) {
+  // ULTRASONIC AVOIDANCE
+  if (!sequenceCompleted && !parkingSequenceStarted) {
     updateServoWithUltrasonic(leftDistance, rightDistance);
   }
   
   delay(50);
 }
 
+// Parking sequence handler
+void handleParkingSequence() {
+  unsigned long currentTime = millis();
+  unsigned long elapsedTime = currentTime - parkingStartTime;
+  
+  if (elapsedTime < PARKING_TURN_DURATION) {
+    if (parkingTurnDirection == 1) {
+      myServo.write(MIN_SERVO_ANGLE);
+      currentServoAngle = MIN_SERVO_ANGLE;
+    } else if (parkingTurnDirection == 2) {
+      myServo.write(MAX_SERVO_ANGLE);
+      currentServoAngle = MAX_SERVO_ANGLE;
+    }
+    
+    Serial.print("PARKING: Continuing turn (");
+    Serial.print(parkingTurnDirection == 1 ? "LEFT" : "RIGHT");
+    Serial.print(") - ");
+    Serial.print(elapsedTime);
+    Serial.print("/");
+    Serial.print(PARKING_TURN_DURATION);
+    Serial.println(" ms");
+  }
+  else if (elapsedTime < (PARKING_TURN_DURATION + PARKING_DELAY)) {
+    if (currentServoAngle != CENTER_POSITION) {
+      Serial.println("PARKING: Centering servo");
+      centerServo();
+    }
+    Serial.print("PARKING: Servo centered - ");
+    Serial.print(elapsedTime - PARKING_TURN_DURATION);
+    Serial.print("/");
+    Serial.print(PARKING_DELAY);
+    Serial.println(" ms");
+  }
+  else {
+    Serial.println("=== PARKING SEQUENCE COMPLETE ===");
+    parkingSequenceStarted = false;
+    shutdownSequenceStarted = true;
+    shutdownStartTime = millis();
+    returnServoToHome();
+  }
+}
+
 void processColorDetection() {
-  // Use the working method from our test
   if (huskylens.request() && huskylens.available()) {
     HUSKYLENSResult result = huskylens.read();
     
@@ -134,24 +199,47 @@ void processColorDetection() {
     
     if (result.ID == COLOR_ID1) {
       Serial.println(">>> ACTIVATING SEQUENCE: Servo to 78° <<<");
-      handleColorDetection(true);
+      handleColorDetection(true, COLOR_ID1);
     } 
     else if (result.ID == COLOR_ID2) {
       Serial.println(">>> ACTIVATING SEQUENCE: Servo to 108° <<<");
-      handleColorDetection(false);
+      handleColorDetection(false, COLOR_ID2);
     }
   }
 }
 
-void handleColorDetection(bool setToMinAngle) {
+// NEW: Modified function to handle first color detection and set reset delay
+void handleColorDetection(bool setToMinAngle, int colorID) {
   sequenceCompleted = true;
   detectionPaused = true;
   sequenceStartTime = millis();
   
+  // NEW: Set the reset delay based on first color detection
+  if (!firstColorDetected) {
+    firstColorDetected = true;
+    firstColorID = colorID;
+    
+    if (colorID == COLOR_ID1) {
+      currentResetDelay = RESET_DELAY_ID1;
+      Serial.println(">>> FIRST COLOR: ID1 DETECTED <<<");
+      Serial.print(">>> SETTING RESET DELAY TO: ");
+      Serial.print(currentResetDelay);
+      Serial.println("ms <<<");
+    } else if (colorID == COLOR_ID2) {
+      currentResetDelay = RESET_DELAY_ID2;
+      Serial.println(">>> FIRST COLOR: ID2 DETECTED <<<");
+      Serial.print(">>> SETTING RESET DELAY TO: ");
+      Serial.print(currentResetDelay);
+      Serial.println("ms <<<");
+    }
+  }
+  
   if (setToMinAngle) {
     setServoToMinAngle();
+    parkingTurnDirection = 1;
   } else {
     setServoToMaxAngle();
+    parkingTurnDirection = 2;
   }
   
   sequenceCount++;
@@ -159,6 +247,31 @@ void handleColorDetection(bool setToMinAngle) {
   Serial.print(sequenceCount);
   Serial.print("/");
   Serial.println(MAX_SEQUENCES);
+  
+  // NEW: Display current reset delay in sequence progress
+  Serial.print("Current reset delay: ");
+  Serial.print(currentResetDelay);
+  Serial.println("ms");
+  
+  if (sequenceCount >= MAX_SEQUENCES) {
+    Serial.println("=== LAST COLOR DETECTED - STARTING PARKING SEQUENCE ===");
+    parkingSequenceStarted = true;
+    parkingStartTime = millis();
+    sequenceCompleted = false;
+    
+    Serial.print("PARKING: Will continue ");
+    Serial.print(parkingTurnDirection == 1 ? "LEFT" : "RIGHT");
+    Serial.println(" turn for 2 seconds");
+    
+    // NEW: Display final summary of color detection pattern
+    Serial.println("=== COLOR DETECTION SUMMARY ===");
+    Serial.print("First color detected: ID");
+    Serial.println(firstColorID);
+    Serial.print("Reset delay used throughout: ");
+    Serial.print(currentResetDelay);
+    Serial.println("ms");
+    Serial.println("===============================");
+  }
 }
 
 // Rest of your functions remain the same...
@@ -174,7 +287,8 @@ int getDistance(int trigPin, int echoPin) {
 }
 
 void updateServoWithUltrasonic(int leftDistance, int rightDistance) {
-  if (sequenceCompleted) return;
+  if (parkingSequenceStarted) return;
+  
   if (leftDistance < SAFE_DISTANCE && rightDistance < SAFE_DISTANCE) {
     centerServo();
   } else if (leftDistance < SAFE_DISTANCE) {
@@ -184,7 +298,9 @@ void updateServoWithUltrasonic(int leftDistance, int rightDistance) {
     myServo.write(MAX_SERVO_ANGLE);
     currentServoAngle = MAX_SERVO_ANGLE;
   } else {
-    centerServo();
+    if (!sequenceCompleted) {
+      centerServo();
+    }
   }
 }
 
