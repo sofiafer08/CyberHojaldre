@@ -44,6 +44,6 @@ For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre
 
 The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera mount**. This mount allows us to have a greater height and position the camera at a 45° angle during the robot's testing in order to enhance the range and accuracy. We connect it to the chassis LEGO pins, as both 3D printed pieces have LEGO compatibility. This modular piece amplifies the number of uses our camera has, changing easily the robot's capacities.
 
-For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the HuskyLens Mount Interactive stl.
+For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/HuskyLens_Mount.stl) to open the HuskyLens Mount Interactive stl.
 
 <img width="405" height="410" alt="imagen_2025-09-29_224353829 (2)" src="https://github.com/user-attachments/assets/72b66fa6-552b-4fae-875b-bd3b195543b2" />
