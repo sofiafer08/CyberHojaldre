@@ -7,7 +7,7 @@ Since we developed **Captain ÑomÑom**, We have now programmed a new code that 
 *   The code begins by establishing where all the physical components like motors and sensors are connected. It also sets important constants that act as the robot's rules of operation:
 
       *   **Max Sequences:** Dictates the total number of times the robot will perform  the color detection and then turn. When it reaches this number Cap. will shut down.
-      *   **Reset Delay:** The brief pause the robot takes after reacting to a color before it's ready for the next one. This ensures Cap. will read only one color when he gets to the turns. Without it, he would detct both blue and orange and would turn in opssite directions, steering him away from his course.
+      *   **Reset Delay:** The brief pause the robot takes after reacting to a color before it's ready for the next one. This ensures Cap. will read only one color when he gets to the turns. Without it, he would detect both blue and orange and would turn in oppossite directions, steering him away from his course.
       *    **Shutdown Delay:** The amount of time the robot waits after its final sequence before turning off its motor. With this fuction, we can ensure Cap. reaches it original position and doesnt stop suddenly in the middle of a turn.
       *  **Steering Range:** The servo motor's movement is limited to a safe range where we have the MAX and MIN angles, 108 and 78 degrees accordingly, to prevent the robot from making overly sharp turns. 
 
