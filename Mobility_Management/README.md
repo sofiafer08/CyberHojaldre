@@ -36,7 +36,7 @@ For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre
 
 In order to directly connect our **3V–6V Dual Axis TT Gear Motor** to the vehicle's rear axle, we designed two **3D printed PETG adapters**. From one side, the adapter is able to connect to the **3V–6V Dual Axis TT Gear Motor's** axle, while from the other its able to couple with a LEGO Technic axle, allowing us to use LEGO wheels and tires to provide traction.
 
-For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the Motor Axle Interactive stl
+For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/tt_Motor_Axle.stl) to open the Motor Axle Interactive stl
 
 <img width="405" height="345" alt="Captura de pantalla 2025-09-11 183324" src="https://github.com/user-attachments/assets/76fc1037-06fe-49aa-afd9-c86493735ac1" />
 
