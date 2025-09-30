@@ -28,7 +28,7 @@ We use an **Ackermann steering** built using LEGO parts. This steering system is
 
 We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for our **3V–6V Dual Axis TT Gear Motor**, a LEGO compatible 3x9 Technic axle hole plate to secure our steering's **Geekservo 2kg 360° servo** and the **HUSKYLENS Smart Vision Sensor's** mount, holes for our **HC-SR04 Ultrasonic Distance Sensors** and a mount for our **TCS3200 Color Sensor Module**. This simple design gives us ease of repair, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
-For more information, [*click here*](https://www.tinytronics.nl/product_files/004721_TENPOWER_INR18650-28HE_datasheet.pdf) to open the Chassis Interactive stl.
+For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/Chassis.stl) to open the Chassis Interactive stl.
 
 <img width="748" height="511" alt="Captura de pantalla 2025-09-11 182752" src="https://github.com/user-attachments/assets/375362ee-8bf9-4d5d-9ae0-56ee334d2c8b" />
 
