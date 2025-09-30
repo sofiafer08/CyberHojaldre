@@ -5,7 +5,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=YouTube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@CyberHojaldre)
 [![Instagram](https://img.shields.io/badge/Instagram-FF0069?logo=Instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/cyberhojaldre)
 
-<img width="1500" height="" alt="Captura de pantalla 2025-09-29 234828" src="https://github.com/user-attachments/assets/fda63821-e808-4f57-8151-b5185195ea72" />
+<img width="1500" height="312" alt="image" src="https://github.com/user-attachments/assets/1ccdb6cc-7487-4e4f-9d57-bea56b5fa9be" />
 
 ## About Us
 
