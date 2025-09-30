@@ -6,7 +6,7 @@
 * [Chassis Interactive stl](./Chassis.stl)
 * [Image of Motor Axle](./tt_Motor_Axle.jpeg) 
 * [Motor Axle Interactive stl](./tt_Motor_Axle.stl)
-* [Image of HuskyLens Mount](./)
+* [Image of HuskyLens Mount](./HuskyLens_Mount)
 * [HuskyLens Mount Interactive stl](./HuskyLens_Mount.stl)
   
 
