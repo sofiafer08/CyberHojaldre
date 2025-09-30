@@ -3,7 +3,7 @@
 ## 3D Models 
 
 * [Chassis Images](./Chassis_Images.pdf)
-* [Chassis interactive stl](./Chassis.stl)
+* [Chassis Interactive stl](./Chassis.stl)
 * [Image of Motor Axle](./tt_Motor_Axle.jpeg) 
 * [Motor Axle Interactive stl](./tt_Motor_Axle.stl)
 * [Image of HuskyLens Mount](./)
