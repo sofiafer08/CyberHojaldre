@@ -3,7 +3,7 @@ Meet the members of our team
 
 ## Sofia Fernández
 
-![foto sofi 300px](https://github.com/user-attachments/assets/094e557c-38ac-4557-be3f-688558e2002e)
+<img width="1500" height="1500" alt="marcos de fotos (12)" src="https://github.com/user-attachments/assets/54198d2b-a7f9-4da1-8d6a-99e1ca1ca373" />
 
 
 <p align='justify'>My name is Sofia Fernandez, I'm a 16-year-old girl from Honduras currently living in Panama. I moved here last year in search of better opportunities, and since then, I've discovered a passion for robotics and everything related to STEM. This new environment has inspired me to keep learning, growing, and exploring all the possibilities within science, technology, engineering, and math. I'm always looking for ways to expand my knowledge and take on new challenges in the STEM world.</p>  
