@@ -30,7 +30,7 @@ We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehi
 
 For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/Chassis.stl) to open the Chassis Interactive stl.
 
-<img width="748" height="511" alt="Captura de pantalla 2025-09-11 182752" src="https://github.com/user-attachments/assets/375362ee-8bf9-4d5d-9ae0-56ee334d2c8b" />
+<img width="1500" height="1500" alt="marcos de fotos (5)" src="https://github.com/user-attachments/assets/cb1cc562-0a2e-4d51-9033-56b336168af8" />
 
 ### Rear Axle Adapters
 
