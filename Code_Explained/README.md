@@ -36,7 +36,7 @@ Since we developed **Captain ÑomÑom**, We have now programmed a new code that 
 
 ### **Course Explanation: Obstacle Avoidance & Navigation**
 
-The code begins by establishing where all the physical components like motors, sensors, and the camera are connected. It also sets important constants that act as the robot's rules of operation:
+The code begins by establishing where all the physical components like motors, sensors, and camera are connected. It also sets important constants that act as the robot's rules of operation:
 
 *   **Max Sequences:** Dictates the total number of times the robot will perform a primary color detection and turn sequence. When it reaches this number, the robot will shut down.
 *   **Color Detection Pause:** A 6-second period after detecting a blue or orange line where the robot ignores further blue/orange detections. This ensures it completes its turn and reverse maneuver without being interrupted. During this pause, it can still detect and react to red and green obstacles.
@@ -45,7 +45,7 @@ The code begins by establishing where all the physical components like motors, s
 
 *   **Sensors & Perception:**
     *   The robot relies on two main sensing systems that work together:
-        *   **HuskyLens Camera:** This is the primary sensor for navigation. It is trained to recognize four colors, each with a unique meaning:
+        *   **HuskyLens Camera:** This is the primary sensor for navigation. It is trained to recognize four colors:
             *   **Blue & Orange:** These are the *primary navigation lines*. They signal the robot to execute a turn sequence, bump into the wall behind it, and then continue, effectively moving it to the next section of the course.
             *   **Red & Green:** These act as *virtual obstacles*. When detected, the robot performs an avoidance maneuver by backing up and turning left and right to navigate around them.
         *   **Ultrasonic Sensors:** These act as a secondary, physical safety system for obstacle avoidance. If the robot gets too close to a wall or object on its left or right side, these sensors will command a mild turn to keep it centered and avoid crashes.
@@ -56,11 +56,11 @@ The code begins by establishing where all the physical components like motors, s
     *   It then checks for the HuskyLens camera and prepares it for color detection.
 
 *   **Main Operation Loop:**
-    *   The core of the code is a loop that constantly checks a specific order of events:
+    *   The loop constantly checks a specific order of events:
         1.  **Shutdown Check:** It first checks if the maximum number of sequences has been reached to begin the shutdown process.
-        2.  **Continuous Ultrasonic Monitoring:** The ultrasonic sensors are *always active*. If an obstacle is detected, the robot immediately stops, turns mildly away from it, and then continues forward. This takes priority to prevent collisions.
-        3.  **Color Detection & Reaction:** The robot simultaneously looks for colors. The reaction depends on the color found:
-            *   **Blue/Orange:** The robot completes its forward motion, turns in the corresponding direction, then reverses to bump into the wall. It then tallies a sequence and enters a pause period where it ignores further blue/orange lines.
-            *   **Red/Green:** The robot treats these as obstacles in its path. It stops, reverses briefly, and then performs a sequenced turn (left-then-right or right-then-left) to navigate around the virtual obstacle before continuing forward.
+        2.  **Continuous Ultrasonic Monitoring:** The ultrasonic sensors are the least importnat part of the code. If a wall is detected, the robot turns mildly away from it, and then continues forward. This in done top avoid walls in case Cap. gets to close to them. This is vital to ensure the HuskyLens has a clear vieww of all the obtsacles. If its to close to one side, its posible he'll miss the detctio of certain obstacles. 
+        3.  **Color Detection & Reaction:** The robot simultaneously looks for colors. He has to given instruction in case he detcts one of the two possible sets of colors:
+            *   **Blue/Orange:** The robot will continue a forward motion for a few seconds loneger, sort of a delay before turning. This is so that he has advanced enough to turn and bump into the walll behind him. He first turns in the corresponding direction, then reverses to bump into the wall. This way, he can always center himself and is awa.re of all the onjevts in front of him. This preventes him from turning too sharply or too wideley and missing obstacles around him. When completing this sequence, he also tallies it up so as to keep track of how many laps are missing. Once he reaches 12, he will stop. Lastly, after the detection of one of the colored lines, he enters a pause period where it ignores further blue/orange lines so as to not detect the same line when going forward again.
+            *   **Red/Green:** This feature allows him to avoid obstacles. When detcting either green or red, he stops, reverses briefly so as to not bump into the obstacle, and then performs a sequenced turn (left-then-right or right-then-left) to navigate around the virtual obstacle before continuing forward. When he makes thsi maneuver he ensures the obstacle is avoided, but also places hinmslef back in his path. 
 
 *   Once the robot completes its maximum number of sequences, it stops its motor, bringing the course run to a complete end.
