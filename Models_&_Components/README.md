@@ -20,5 +20,6 @@
 | 1 | **Arduino UNO R4 WiFi** | Acts as the central control unit for the vehicle, enabling communication and processing of commands. | 6 V-24 V | ![Arduino r4 356](https://github.com/user-attachments/assets/4e7521c7-fb76-445a-9f15-b55cba352e9b)|
 | 1 | **Module L298P Motor Shield HW-723** | Facilitates the connection and control of all components to the Arduino board. | 4.8V ~ 35V | ![arduino l298p 356](https://github.com/user-attachments/assets/525d93f2-7183-472c-8ee2-c4e46daf2b41)| 
 | 1 | **3V–6V Dual Axis TT Gear Motor** | Powers the movement of the vehicle’s rear wheels, providing the necessary torque for driving. |  3Vdc ~ 6Vdc |![Motor amarillo 356](https://github.com/user-attachments/assets/00baf706-972f-49f7-b466-925bc8ef8c92)|
-| 1 | **Geekservo 2kg 360° servo** | Controls the steering mechanism, adjusting the front wheels to guide the vehicle’s direction. | 3Vdc ~ 6Vdc | <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/4d08ca77-4ed4-4628-acc8-ff4a2c3693ba" />
+| 1 | **SG90 9g Micro Servo** | Controls the steering mechanism, adjusting the front wheels to guide the vehicle’s direction. | 3Vdc ~ 6Vdc | ![not_micro_servo](https://github.com/user-attachments/assets/ceb9dc80-45a9-4861-a8e1-626f28a86592)
+
 
