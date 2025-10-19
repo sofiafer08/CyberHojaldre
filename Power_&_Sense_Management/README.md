@@ -53,6 +53,8 @@ We used a **TCS3200 Color Sensor Module**. The sensor can detect a wide variety 
 
 For more information, [*click here*](https://www.mouser.com/catalog/specsheets/tcs3200-e11.pdf?srsltid=AfmBOorEgZGDruwtI3xHOg00w5BmGMS5fNyywV3p9RMySATtGV3V-sCV) to open the TCS3200 Color Sensor Module's datasheet.
 
+>[!NOTE]
+> We are currently not implementing this sensor as part of our code. We decided to replace its original function with the HuskyLens. Nonetheless, it still remains as part of our robot in case a minor inconvenience occurs. 
 ### HuskyLens Camera
 
 We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recognize objects, faces and colors using built-in AI algorithms. It is especially useful for projects involving computer vision, such as object tracking and autonomous navigation. Each HUSKYLENS module includes a camera, a processor for AI functions and a interface with a digital display and buttons. Its purpose is to detect incoming trafic signs and identify their color in order to indicate our vehicle side of the lane it must follow in the obstacle challenge.
