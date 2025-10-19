@@ -46,3 +46,6 @@ For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre
 
 ### Servo LEGO Mount
 
+We also used the bottom part of a **SG90 9g Micro Servo LEGO mount** designed by **wilix from Thingyverse**. This mount enabled us to connect the servo's axle to our LEGO steering, giving us a great mix of efficiency and compatibility.  
+
+For more information, [*click here*](https://www.thingiverse.com/thing:4303585) to visit the wilix's Thingyverse page.
