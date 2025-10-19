@@ -33,9 +33,6 @@ Since we developed **Captain ÑomÑom**, We have now programmed a new code that 
 
 ## Obstacle Challenge Programming
 
-Of course. Here is the explanation for your obstacle avoidance course, written in the requested structure and tone.
-
-***
 
 ### **Course Explanation: Obstacle Avoidance & Navigation**
 
