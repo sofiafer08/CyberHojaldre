@@ -38,7 +38,7 @@ In order to directly connect our **3V–6V Dual Axis TT Gear Motor** to the vehi
 
 For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/tt_Motor_Axle.stl) to open the Motor Axle Interactive stl
 
-<img width="405" height="345" alt="Captura de pantalla 2025-09-11 183324" src="https://github.com/user-attachments/assets/76fc1037-06fe-49aa-afd9-c86493735ac1" />
+<img width="1500" height="1500" alt="marcos de fotos (7)" src="https://github.com/user-attachments/assets/50e593e8-a18d-4568-8d09-ea383653f1ec" />
 
 ### Camera Mount
 
