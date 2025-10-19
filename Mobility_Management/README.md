@@ -2,7 +2,7 @@
 
 ## General Vehicle Design
 
-The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **Geekservo 2kg 360° servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color and a **TCS3200 Color Sensor Module** which serves as a backup for the camera. All systems are controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
+The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powered through the rear axle using a **3V–6V Dual Axis TT Gear Motor** and steered with a **SG90 9g Micro Servo**. It counts with two **HC-SR04 Ultrasonic Distance Sensors** to detect the track's walls in order to avoid collisions, a **HUSKYLENS Smart Vision Sensor** to detect incoming traffic signs and identify their color and a **TCS3200 Color Sensor Module** which serves as a backup for the camera. All systems are controlled by an **Arduino UNO R4 WiFi** with a **Module L298P Motor Shield HW-723**.
 
 ## Drivetrain
 
@@ -14,7 +14,7 @@ We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is di
 
 ### Steering
 
-We use an **Ackermann steering** built using LEGO parts. This steering system is proven to be one of the most efficient and reliable which is demonstrated by its years of use in the automotive industry. The Ackermann principle ensures that a vehicle's inner front wheel turns at a greater angle than the outer front wheel during a turn, allowing both wheels to trace concentric circles around a single virtual pivot point. We control the steering using degrees thanks to the **Geekservo 2kg 360° servo**, which makes it easier to program and improves the robot's accuracy. This steering system also provides a wide range of movement, making the vehicle highly maneuverable.
+We use an **Ackermann steering** built using LEGO parts. This steering system is proven to be one of the most efficient and reliable which is demonstrated by its years of use in the automotive industry. The Ackermann principle ensures that a vehicle's inner front wheel turns at a greater angle than the outer front wheel during a turn, allowing both wheels to trace concentric circles around a single virtual pivot point. We control the steering using degrees thanks to the **SG90 9g Micro Servo**, which makes it easier to program and improves the robot's accuracy. This steering system also provides a wide range of movement, making the vehicle highly maneuverable.
 
 <img width="1500" height="1500" alt="marcos de fotos (11)" src="https://github.com/user-attachments/assets/71b14b79-7663-430b-bf56-fa87ffa96c3c" />
 
@@ -22,7 +22,7 @@ We use an **Ackermann steering** built using LEGO parts. This steering system is
 
 ### Chassis
 
-We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for our **3V–6V Dual Axis TT Gear Motor**, a LEGO compatible 3x9 Technic axle hole plate to secure our steering's **Geekservo 2kg 360° servo** and the **HUSKYLENS Smart Vision Sensor's** mount, holes for our **HC-SR04 Ultrasonic Distance Sensors** and a mount for our **TCS3200 Color Sensor Module**. This simple design gives us ease of repair, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
+We use a custom **3D printed PETG chassis** designed using Fusion 360. This vehicle frame is custom fitted with a space for our **two Slot 18650 Battery Holder**, an **Arduino UNO R4 WiFi** holder, a bracket for our **3V–6V Dual Axis TT Gear Motor**, a LEGO compatible 3x9 Technic axle hole plate to secure our steering's **SG90 9g Micro Servo's LEGO mount** and the **HUSKYLENS Smart Vision Sensor's** mount, holes for our **HC-SR04 Ultrasonic Distance Sensors** and a mount for our **TCS3200 Color Sensor Module**. This simple design gives us ease of repair, high ground clearance and torsional rigidity. It's an effective design which adapts to our robot's needs.
 
 For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/Chassis.stl) to open the Chassis Interactive stl.
 
@@ -43,3 +43,6 @@ The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera
 For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/HuskyLens_Mount.stl) to open the HuskyLens Mount Interactive stl.
 
 <img width="1500" height="1500" alt="marcos de fotos (8)" src="https://github.com/user-attachments/assets/9dc46e08-f4a3-483f-9642-d6895871a857" />
+
+### Servo LEGO Mount
+
