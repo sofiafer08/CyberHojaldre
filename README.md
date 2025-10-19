@@ -19,7 +19,7 @@ We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson S
 
 Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driving challenge by detecting and avoiding obstacles in the track's controlled environment. The robot monitors track boundaries to ensure it stays within limits and maintains accurate navigation. It can also visually detect obstacles, allowing the robot to respond intelligently in real time by adjusting its path to avoid collisions depending on the obstacle's color. Beyond technical goals, one of our team's most important objectives is to enjoy the process, learn through experimentation and have fun building a robot that reflects both our creativity and our passion for robotics.
 
-<img width="" height="600" alt="image" src="https://github.com/user-attachments/assets/0385b98f-bd6a-452d-a6b0-d7f19331a478" />
+<img width="1500" height="1500" alt="marcos de fotos (20)" src="https://github.com/user-attachments/assets/2cffb61f-262e-47a8-91b3-f0714086b016" />
 
 ## Past Projects
 
