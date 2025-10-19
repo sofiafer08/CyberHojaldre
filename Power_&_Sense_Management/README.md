@@ -57,7 +57,7 @@ For more information, [*click here*](https://www.mouser.com/catalog/specsheets/t
 > We are currently not implementing this sensor as part of our code. We decided to replace its original function with the HuskyLens. Nonetheless, it still remains as part of our robot in case a minor inconvenience occurs. 
 ### HuskyLens Camera
 
-We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recognize objects, faces and colors using built-in AI algorithms. It is especially useful for projects involving computer vision, such as object tracking and autonomous navigation. Each HUSKYLENS module includes a camera, a processor for AI functions and a interface with a digital display and buttons. Its purpose is to detect incoming trafic signs and identify their color in order to indicate our vehicle side of the lane it must follow in the obstacle challenge.
+We used a **HUSKYLENS Smart Vision Sensor**. This sensor can detect and recognize objects, faces and colors using built-in AI algorithms. It is especially useful for projects involving computer vision, such as object tracking and autonomous navigation. Each HUSKYLENS module includes a camera, a processor for AI functions and an interface with a digital display and buttons. Its purpose is to detect incoming traffic signs and identify their color in order to indicate the vehicle side of the lane it must follow in the obstacle challenge.
 
 ![Husky lens 200](https://github.com/user-attachments/assets/fb5a7aea-b139-4649-8c0e-841a44ab04ed)
 
