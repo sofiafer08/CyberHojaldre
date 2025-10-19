@@ -31,7 +31,7 @@ Before bringing ***Captain ÑomÑom*** to life, we had worked together to create
 
 | [**Sofía Fernández**](https://github.com/sofiafer08/CyberHojaldre/tree/main/Meet_the_Team#sofia-fernández) | [**Antonio Franco**](https://github.com/sofiafer08/CyberHojaldre/tree/main/Meet_the_Team#antonio-franco) | [**Emilia Lever**](https://github.com/sofiafer08/CyberHojaldre/tree/main/Meet_the_Team#emilia-lever) |
 | :-----------------: | :----------------: | :------------------: |
-| <img width="250" height="" alt="image" src="https://github.com/user-attachments/assets/012723cf-954c-4e42-96a7-4aed74bcd034" /> | ![Fotito toño trukey 201px](https://github.com/user-attachments/assets/94091a36-3cbb-4ee7-920f-ede0243a31a2) | ![Fotito Emilia 201px](https://github.com/user-attachments/assets/e7f65623-b40c-42e2-b52c-9eec4f22109c) |
+| <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/012723cf-954c-4e42-96a7-4aed74bcd034" /> | ![Fotito toño trukey 201px](https://github.com/user-attachments/assets/94091a36-3cbb-4ee7-920f-ede0243a31a2) | ![Fotito Emilia 201px](https://github.com/user-attachments/assets/e7f65623-b40c-42e2-b52c-9eec4f22109c) |
 | *GitHub master, team spirit leader, and marketing director* | *Goofy designer and mechanics lead, invested in every part of the project* | *Silly, geeky programmer and electrician* | 
 | <ins>16 years old</ins> | <ins>15 years old</ins> | <ins>16 years old</ins> |
 
