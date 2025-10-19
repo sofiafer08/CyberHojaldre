@@ -25,7 +25,7 @@ Our robot, ***Captain ÑomÑom***, is designed to autonomously complete the driv
 
 Before bringing ***Captain ÑomÑom*** to life, we had worked together to create robot called ***POP***. ***POP*** -Short for People Is Nice- was able to complete the open course challenge and park in its starting position. He was built with the help of a 3D printed chassis and a sensor mount that complemented LEGO pieces. ***POP*** completed the course slowly yet accuarteley, but was unable to dodge obstacles. This is why we decided to start over with a new project a month before nationals. It would allow us to boost ***POP's*** ability allowing more speed, and a higher level performance. It involved replacing most components, programming from scratch, and changing the entire dynamic we had with our previous robot. This is how ***Captain ÑomÑom*** was born; thanks to an extensive creative process, and the merging of all our ideas. We are beyond excited for you to learn about all the specifications of ***Cap***. and hope you are able to see the technical growth required for the completion of this project. We keep ***POP*** in our hearts, and use him as inspiration for every cable wired and every line of code. Enjoy!
 
-<img width="1500" height="1500" alt="marcos de fotos (2)" src="https://github.com/user-attachments/assets/3dbe1c76-39d1-40dc-ae20-82adb1728f0b" />
+<img width="1500" height="1500" alt="marcos de fotos (4)" src="https://github.com/user-attachments/assets/2e410b9e-3391-4fb6-ba77-2313c95b7181" />
 
 ## Team Members
 
