@@ -10,7 +10,7 @@ The robotic vehicle is constructed upon a **3D printed PETG chassis**. It's powe
 
 We power our drivetrain using a **3V–6V Dual Axis TT Gear Motor**, which is directly connected to the vehicle's rear axle. Our rear axle is responsible for the forward and backward motion on our robot. This rear wheel drive design eliminates the necessity for complex systems such as constant velocity (CV) joints or external gearboxes without sacrificing torque, speed, and traction; resulting in a reliable and easy to repair robot.
 
-<img width="1500" height="1500" alt="marcos de fotos (10)" src="https://github.com/user-attachments/assets/5817c664-f9a8-4adf-9343-e4597a25428f" />
+<img width="1500" height="1500" alt="marcos de fotos (10)" src="https://github.com/user-attachments/assets/6946bf64-8063-4ebf-b4b7-296f1527e204" />
 
 ### Steering
 
