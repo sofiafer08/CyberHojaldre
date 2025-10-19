@@ -8,7 +8,7 @@
 * [Motor Axle Interactive stl](./tt_Motor_Axle.stl)
 * [Image of HuskyLens Mount](./HuskyLens_Mount_Image.png)
 * [HuskyLens Mount Interactive stl](./HuskyLens_Mount.stl)
-* [Servo LEGO Mount](https://www.thingiverse.com/thing:4303585)
+* [Servo LEGO Mount - Thingyverse page](https://www.thingiverse.com/thing:4303585)
   
 ## List of components:
 
