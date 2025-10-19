@@ -11,8 +11,7 @@ Meet the members of our team
 
 ## Antonio Franco 
 
-![Foto de toño working 300px x 225px](https://github.com/user-attachments/assets/ceb1f102-6606-4513-a915-01912e04267b)
-
+<img width="1500" height="1500" alt="marcos de fotos (13)" src="https://github.com/user-attachments/assets/a3f6e4db-33ae-4025-bcd9-4a8068552933" />
 
 <p align='justify'>My name is Antonio Franco, I'm a 15-year-old boy born in Panama. I've shared a passion for STEM and engineering from an early age, making my career in robotics very vast. In my path, I've discovered that Computer Aided Design or CAD is my main talent, which I've incorporated in each one of my projects. Competitions like FRC or WRO are constant challenges for my skills, which inspire me each day to aim higher and to prove I'm capable of achieving success. STEM always keeps me growing and improving, and I always look forward to challenge myself with each project.</p>  
 
