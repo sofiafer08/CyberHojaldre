@@ -4,7 +4,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=YouTube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@CyberHojaldre)
 [![Instagram](https://img.shields.io/badge/Instagram-FF0069?logo=Instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/cyberhojaldre)
 
-<img width="1500" height="" alt="image" src="https://github.com/user-attachments/assets/f92e3687-9663-4059-861a-09b846ea5119" />
+<img width="1500" height="500" alt="encabezado github" src="https://github.com/user-attachments/assets/32768418-a817-4030-a809-d5c0e7ea5c16" />
 
 ## About Us
 
