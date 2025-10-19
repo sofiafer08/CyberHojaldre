@@ -13,7 +13,7 @@ We are ***CyberHojaldre***, a dedicated team representing Thomas Jefferson S
 >[!NOTE]
 > We are always working on improving ***Captain ÑomÑom's*** performance! This means small tweaks are being made in every competition, which we may not be able to update immediately. 
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/9a3abaeb-7d20-4aa0-b82e-b2cdebaae01a" />
+<img width="1500" height="1500" alt="marcos de fotos" src="https://github.com/user-attachments/assets/4e8efd60-26cc-458a-8c86-baa559d21ba6" />
 
 ## Project Summary
 
