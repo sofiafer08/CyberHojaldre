@@ -46,4 +46,4 @@ The **HUSKYLENS Smart Vision Sensor** is installed in a **3D printed PETG camera
 
 For more information, [*click here*](https://github.com/sofiafer08/CyberHojaldre/blob/main/Models_%26_Components/HuskyLens_Mount.stl) to open the HuskyLens Mount Interactive stl.
 
-<img width="405" height="410" alt="imagen_2025-09-29_224353829 (2)" src="https://github.com/user-attachments/assets/72b66fa6-552b-4fae-875b-bd3b195543b2" />
+<img width="1500" height="1500" alt="marcos de fotos (8)" src="https://github.com/user-attachments/assets/9dc46e08-f4a3-483f-9642-d6895871a857" />
